@@ -7,6 +7,13 @@
     <link rel="stylesheet" type="text/css" href="select2.min.css"/>
 </head>
 <body>
+    <h2>VEHSS Indicator visualization - for review of VEHSS indicator content and organization</h2>
+<h4>Includes ALL VEHSS Indicators, including subgroup/response stratification level that are not shown in website search boxes (5th layer of nodes). 
+    These would be used for stratifying tables or line/bar charts on the VEHSS website</h4>
+<h7>Instructions:
+    Search by name or scroll in search box below to locate indicators, click to show routes.  Refresh page to clear routes.  Explore tree by clicking
+     on nodes to expand/collapse. Click and hold white space to drag tree on screen.</h7>
+
         <div class="search-box">
             <div id="block_container">
                 <div id="searchName"></div>
@@ -47,7 +54,7 @@
                         outer_update(tree_root);
                         tree_root.children.forEach(centerSearchTarget);
                     })
-                    var treeJSON = d3.json("JSON_output-rev6.json", draw_tree);
+                    var treeJSON = d3.json("JSON_output-rev7.json", draw_tree);
                 });
         </script>
         <script>
