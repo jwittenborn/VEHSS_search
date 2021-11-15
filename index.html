@@ -14,7 +14,7 @@
 
 <h7>
     Instructions:
-    Search by name or scroll in search box below to locate indicators, click to show routes.  Refresh page to clear routes.
+    Search by name or scroll in search box below to locate indicators, click to show routes. 
 </h7>
 <h7> 
     Explore tree by clicking on nodes to expand/collapse. Click and hold white space to drag tree on screen. Use scroll wheel or double click/shift+double click to zoom.
@@ -22,12 +22,7 @@
 
     
     
-<button type="button" onClick="refreshPage()">Refresh</button>
-<script>
-function refreshPage(){
-    window.location.reload();
-} 
-</script>
+
     
     
     
@@ -35,8 +30,27 @@ function refreshPage(){
             <div id="block_container">
                 <div id="searchName"></div>
             </div>
+            
+            
+            <button type="button" onClick="refreshPage()">Refresh</button>
+            <script>
+                function refreshPage(){
+                window.location.reload();
+                } 
+            </script>
+            
+            
         </div>
+    
+    
+    
+    
         <div id="tree-container"></div>
+    
+    
+    
+    
+    
 
         <script type="text/javascript" src="d3.v3.min.js"></script>
         <script type="text/javascript" src="dndTree.js"></script>
