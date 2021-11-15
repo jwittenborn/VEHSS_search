@@ -3,16 +3,16 @@
  "children": [
   {
    "name": "Age-related Macular Degeneration (AMD)",
-   "children": [
+   "_children": [
     {
      "name": "Payments ",
-     "children": [
+     "_children": [
       {
        "name": "Insurance payments, Per-person diagnosed",
-       "children": [
+       "_children": [
         {
          "name": "Payments, per person",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -21,7 +21,7 @@
         },
         {
          "name": "Payments, per person, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -30,7 +30,7 @@
         },
         {
          "name": "Payments, per person, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -41,10 +41,10 @@
       },
       {
        "name": "Insurance payments, Total",
-       "children": [
+       "_children": [
         {
          "name": "Payments, total",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -53,7 +53,7 @@
         },
         {
          "name": "Payments, total, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -62,7 +62,7 @@
         },
         {
          "name": "Payments, total, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -75,13 +75,13 @@
     },
     {
      "name": "Prevalence",
-     "children": [
+     "_children": [
       {
        "name": "Examination-based Prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Any AMD",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -92,10 +92,10 @@
       },
       {
        "name": "Diagnosed prevalence, vision threatening",
-       "children": [
+       "_children": [
         {
          "name": "Any vision threatening stage",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -120,7 +120,7 @@
         },
         {
          "name": "Non vision threatening stage",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -147,10 +147,10 @@
       },
       {
        "name": "Diagnosed prevalence, by clinical stage",
-       "children": [
+       "_children": [
         {
          "name": "  Any AMD",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -175,7 +175,7 @@
         },
         {
          "name": "Intermediate (dry-form)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -200,7 +200,7 @@
         },
         {
          "name": " Early (dry-form)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -225,7 +225,7 @@
         },
         {
          "name": "Geographic atrophy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -250,7 +250,7 @@
         },
         {
          "name": "Wet-form (including CNV)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -275,7 +275,7 @@
         },
         {
          "name": "Unspecified AMD",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -302,10 +302,10 @@
       },
       {
        "name": "Self-reported prevalence",
-       "children": [
+       "_children": [
         {
          "name": "Any AMD",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -320,10 +320,10 @@
       },
       {
        "name": " VEHSS Composite Prevalence Estimate",
-       "children": [
+       "_children": [
         {
          "name": "Any AMD",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Estimate",
            "size": "100"
@@ -332,7 +332,7 @@
         },
         {
          "name": "Early stage AMD",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Estimate",
            "size": "100"
@@ -341,7 +341,7 @@
         },
         {
          "name": "Any vision threatening stage AMD",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Estimate",
            "size": "100"
@@ -354,13 +354,13 @@
     },
     {
      "name": "Receipt of Services",
-     "children": [
+     "_children": [
       {
        "name": "Treatment of diagnosed AMD patients",
-       "children": [
+       "_children": [
         {
          "name": " Any treatment",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -381,7 +381,7 @@
         },
         {
          "name": "Laser surgery",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -402,7 +402,7 @@
         },
         {
          "name": "Photodynamic therapy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -423,7 +423,7 @@
         },
         {
          "name": "Anti-VEGF injections",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -450,16 +450,16 @@
   },
   {
    "name": "Cataract",
-   "children": [
+   "_children": [
     {
      "name": "Payments ",
-     "children": [
+     "_children": [
       {
        "name": "Insurance payments, Per-person diagnosed",
-       "children": [
+       "_children": [
         {
          "name": "Payments, per person",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -468,7 +468,7 @@
         },
         {
          "name": "Payments, per person, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -477,7 +477,7 @@
         },
         {
          "name": "Payments, per person, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -488,10 +488,10 @@
       },
       {
        "name": "Insurance payments, Total",
-       "children": [
+       "_children": [
         {
          "name": "Payments, total",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -500,7 +500,7 @@
         },
         {
          "name": "Payments, total, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -509,7 +509,7 @@
         },
         {
          "name": "Payments, total, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -522,13 +522,13 @@
     },
     {
      "name": "Prevalence",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence, by treatment status",
-       "children": [
+       "_children": [
         {
          "name": " Any cataract",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -549,7 +549,7 @@
         },
         {
          "name": "Treated cataract (pseudophakia)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -570,7 +570,7 @@
         },
         {
          "name": "Untreated diagnosed cataract",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -593,10 +593,10 @@
       },
       {
        "name": "Self-reported prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Any cataract",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -613,13 +613,13 @@
     },
     {
      "name": "Receipt of Services",
-     "children": [
+     "_children": [
       {
        "name": "Treatment of diagnosed cataract patients",
-       "children": [
+       "_children": [
         {
          "name": "Cataract surgery",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -642,10 +642,10 @@
       },
       {
        "name": "Self-reported prevalence",
-       "children": [
+       "_children": [
         {
          "name": "Cataract surgery",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -660,16 +660,16 @@
   },
   {
    "name": "Diabetic Retinopathy (DR)",
-   "children": [
+   "_children": [
     {
      "name": "Payments ",
-     "children": [
+     "_children": [
       {
        "name": "Insurance payments, Per-person diagnosed",
-       "children": [
+       "_children": [
         {
          "name": "Payments, per person",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -678,7 +678,7 @@
         },
         {
          "name": "Payments, per person, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -687,7 +687,7 @@
         },
         {
          "name": "Payments, per person, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -698,10 +698,10 @@
       },
       {
        "name": "Insurance payments, Total",
-       "children": [
+       "_children": [
         {
          "name": "Payments, total",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -710,7 +710,7 @@
         },
         {
          "name": "Payments, total, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -719,7 +719,7 @@
         },
         {
          "name": "Payments, total, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -732,13 +732,13 @@
     },
     {
      "name": "Prevalence",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence, by clinical stage",
-       "children": [
+       "_children": [
         {
          "name": " Any diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -763,7 +763,7 @@
         },
         {
          "name": "Diabetic macular edema",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -788,7 +788,7 @@
         },
         {
          "name": "Non-proliferative diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -813,7 +813,7 @@
         },
         {
          "name": "Severe non-proliferative diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -838,7 +838,7 @@
         },
         {
          "name": "Unspecified diabetic eye disease",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -863,7 +863,7 @@
         },
         {
          "name": "Proliferative diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -890,10 +890,10 @@
       },
       {
        "name": "Diagnosed prevalence, vision threatening",
-       "children": [
+       "_children": [
         {
          "name": "Any vision threatening DR stage",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -918,7 +918,7 @@
         },
         {
          "name": "No vision threatening DR stage",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -945,10 +945,10 @@
       },
       {
        "name": "Self-reported prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Any diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -963,10 +963,10 @@
       },
       {
        "name": " VEHSS Composite Prevalence Estimate",
-       "children": [
+       "_children": [
         {
          "name": " Any diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Prevalence Estimate",
            "size": "100"
@@ -975,7 +975,7 @@
         },
         {
          "name": "Any vision threatening DR stage",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Prevalence Estimate",
            "size": "100"
@@ -984,7 +984,7 @@
         },
         {
          "name": "No vision threatening DR stage",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Prevalence Estimate",
            "size": "100"
@@ -995,10 +995,10 @@
       },
       {
        "name": "Examination-based Prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Any diabetic retinopathy",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -1011,13 +1011,13 @@
     },
     {
      "name": "Receipt of Services",
-     "children": [
+     "_children": [
       {
        "name": "Treatment of diagnosed DR patients",
-       "children": [
+       "_children": [
         {
          "name": " Any diabetic retinopathy treatments",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1038,7 +1038,7 @@
         },
         {
          "name": "Anti-VEGF injections",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1059,7 +1059,7 @@
         },
         {
          "name": "Victrectomy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1080,7 +1080,7 @@
         },
         {
          "name": "Retinal detachment repair",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1107,16 +1107,16 @@
   },
   {
    "name": "Glaucoma",
-   "children": [
+   "_children": [
     {
      "name": "Payments ",
-     "children": [
+     "_children": [
       {
        "name": "Insurance payments, Per-person diagnosed",
-       "children": [
+       "_children": [
         {
          "name": "Payments, per person",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -1125,7 +1125,7 @@
         },
         {
          "name": "Payments, per person, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -1134,7 +1134,7 @@
         },
         {
          "name": "Payments, per person, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -1145,10 +1145,10 @@
       },
       {
        "name": "Insurance payments, Total",
-       "children": [
+       "_children": [
         {
          "name": "Payments, total",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -1157,7 +1157,7 @@
         },
         {
          "name": "Payments, total, out of pocket",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -1166,7 +1166,7 @@
         },
         {
          "name": "Payments, total, insurer payment",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -1179,13 +1179,13 @@
     },
     {
      "name": "Prevalence",
-     "children": [
+     "_children": [
       {
        "name": "Examination-based prevalence",
-       "children": [
+       "_children": [
         {
          "name": "Any Glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -1196,10 +1196,10 @@
       },
       {
        "name": "Diagnosed prevalence, by clinical stage",
-       "children": [
+       "_children": [
         {
          "name": " Any glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1224,7 +1224,7 @@
         },
         {
          "name": "Open-angle ",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1249,7 +1249,7 @@
         },
         {
          "name": "Glaucoma suspect",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1274,7 +1274,7 @@
         },
         {
          "name": "Primary angle-closure ",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1299,7 +1299,7 @@
         },
         {
          "name": "Other/unspecified glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1324,7 +1324,7 @@
         },
         {
          "name": "Secondary glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1349,7 +1349,7 @@
         },
         {
          "name": "Severe stage",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1376,10 +1376,10 @@
       },
       {
        "name": "Diagnosed prevalence, specified vs suspect",
-       "children": [
+       "_children": [
         {
          "name": "Specified or severe unspecified glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1404,7 +1404,7 @@
         },
         {
          "name": "Suspect or unspecified glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1431,10 +1431,10 @@
       },
       {
        "name": "Self-reported prevalence",
-       "children": [
+       "_children": [
         {
          "name": "Any Glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Comprehensive Estimate",
            "size": "100"
@@ -1449,10 +1449,10 @@
       },
       {
        "name": " VEHSS Composite Prevalence Estimate",
-       "children": [
+       "_children": [
         {
          "name": " Any glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Prevalence Estimate",
            "size": "100"
@@ -1461,7 +1461,7 @@
         },
         {
          "name": "Specified or severe unspecified glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Prevalence Estimate",
            "size": "100"
@@ -1470,7 +1470,7 @@
         },
         {
          "name": "Suspect or unspecified glaucoma",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Composite Prevalence Estimate",
            "size": "100"
@@ -1483,13 +1483,13 @@
     },
     {
      "name": "Receipt of Services",
-     "children": [
+     "_children": [
       {
        "name": "Treatment of diagnosed glaucoma patients",
-       "children": [
+       "_children": [
         {
          "name": " Any glaucoma treatment",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1510,7 +1510,7 @@
         },
         {
          "name": "Drain",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1531,7 +1531,7 @@
         },
         {
          "name": "Glaucoma surgery",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1552,7 +1552,7 @@
         },
         {
          "name": "Laser surgery",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1573,7 +1573,7 @@
         },
         {
          "name": "Prescription drugs",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1600,16 +1600,16 @@
   },
   {
    "name": "Other Eye Disorders",
-   "children": [
+   "_children": [
     {
      "name": " Cancer and neoplasms of the eye",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Cancer and neoplasms of the eye",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1630,7 +1630,7 @@
         },
         {
          "name": "Benign neoplasms",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1651,7 +1651,7 @@
         },
         {
          "name": "Malignant cancer and neoplasms",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1676,13 +1676,13 @@
     },
     {
      "name": "Cornea Disorders",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Cornea disorders",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1703,7 +1703,7 @@
         },
         {
          "name": "Endothelial dystrophy (Fuchs)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1724,7 +1724,7 @@
         },
         {
          "name": "Keratoconus",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1745,7 +1745,7 @@
         },
         {
          "name": "Other corneal disorders",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1770,13 +1770,13 @@
     },
     {
      "name": "Disorders of Optic Nerve and Visual Pathways",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Optic nerve and visual pathway disorders",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1801,7 +1801,7 @@
         },
         {
          "name": "Visual pathway and cortex",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1826,7 +1826,7 @@
         },
         {
          "name": "Optic nerve",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1855,13 +1855,13 @@
     },
     {
      "name": "Infectious and Inflammatory Diseases",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Infectious and inflammatory diseases",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1886,7 +1886,7 @@
         },
         {
          "name": "Conjunctivitis",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1911,7 +1911,7 @@
         },
         {
          "name": "Endophthalmitis",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1936,7 +1936,7 @@
         },
         {
          "name": "Eyelid infection and inflammation",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1961,7 +1961,7 @@
         },
         {
          "name": "Infectious diseases",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -1986,7 +1986,7 @@
         },
         {
          "name": "Keratitis",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2011,7 +2011,7 @@
         },
         {
          "name": "Lacrimal and orbit inflammation",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2036,7 +2036,7 @@
         },
         {
          "name": "Other or unspecified type",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2065,13 +2065,13 @@
     },
     {
      "name": "Injury, Burns and Surgical Complications of the Eye",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " Injury, burns and surgical complications of the eye",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2096,7 +2096,7 @@
         },
         {
          "name": "Ocular burns",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2121,7 +2121,7 @@
         },
         {
          "name": "Ocular injury",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2146,7 +2146,7 @@
         },
         {
          "name": "Surgical complication of the eye",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2175,13 +2175,13 @@
     },
     {
      "name": "Orbital and External Disease",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " All orbital and external disease",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2206,7 +2206,7 @@
         },
         {
          "name": "Congenital anomalies",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2231,7 +2231,7 @@
         },
         {
          "name": "Disorders of the globe",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2256,7 +2256,7 @@
         },
         {
          "name": "Dry eye syndrome",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2281,7 +2281,7 @@
         },
         {
          "name": "Eyelid disorders",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2306,7 +2306,7 @@
         },
         {
          "name": "Lacrimal diseases",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2331,7 +2331,7 @@
         },
         {
          "name": "Other/unspecified orbital and external disease",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2360,13 +2360,13 @@
     },
     {
      "name": "Other Eye Disorders",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": "Other or unspecified eye disorder",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2395,13 +2395,13 @@
     },
     {
      "name": "Other Retinal Disorders",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " All other retinal disorders",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2426,7 +2426,7 @@
         },
         {
          "name": "Branch retinal artery occlusion",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2451,7 +2451,7 @@
         },
         {
          "name": "Branch retinal vein occlusion",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2476,7 +2476,7 @@
         },
         {
          "name": "Central retinal arterial occlusion",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2501,7 +2501,7 @@
         },
         {
          "name": "Central retinal vein occlusion",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2526,7 +2526,7 @@
         },
         {
          "name": "Hereditary chorioretinal dystrophy",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2551,7 +2551,7 @@
         },
         {
          "name": "Macular edema (Cystoid or non-diabetic)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2576,7 +2576,7 @@
         },
         {
          "name": "Myopic degeneration",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2601,7 +2601,7 @@
         },
         {
          "name": "Non-Occlusive retinal vascular disease",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2626,7 +2626,7 @@
         },
         {
          "name": "Occlusive retinal vascular disease",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2651,7 +2651,7 @@
         },
         {
          "name": "Other/unspecified other retinal disorders",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2676,7 +2676,7 @@
         },
         {
          "name": "Other/unspecified visual disturbances",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2701,7 +2701,7 @@
         },
         {
          "name": "Retinopathy of prematurity",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2730,13 +2730,13 @@
     },
     {
      "name": "Retinal Detachment and Defects",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": "Retinal detachment and defects",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2765,13 +2765,13 @@
     },
     {
      "name": "Strabismus and Amblyopia",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed prevalence",
-       "children": [
+       "_children": [
         {
          "name": " All Strabismus and amblyopia",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -2796,7 +2796,7 @@
         },
         {
          "name": "Strabismus",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -2821,7 +2821,7 @@
         },
         {
          "name": "Amblyopia",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -2852,16 +2852,16 @@
   },
   {
    "name": "Vision Care Services",
-   "children": [
+   "_children": [
     {
      "name": "Eye Exams",
-     "children": [
+     "_children": [
       {
        "name": "Patients receiving service",
-       "children": [
+       "_children": [
         {
          "name": " All eye exams",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2886,7 +2886,7 @@
         },
         {
          "name": "Examination by an ophthalmologist",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2911,7 +2911,7 @@
         },
         {
          "name": "Examination by an optometrist",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -2938,10 +2938,10 @@
       },
       {
        "name": "Self-reported receipt of service",
-       "children": [
+       "_children": [
         {
          "name": "Saw eye care provider",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -2950,9 +2950,9 @@
         },
         {
          "name": "Did not received needed eye care",
-         "children": [
+         "_children": [
           {
-           "name": "NSCH (children survey)",
+           "name": "NSCH (_children survey)",
            "size": "100"
           }
          ]
@@ -2963,13 +2963,13 @@
     },
     {
      "name": "Use of Eye Protection",
-     "children": [
+     "_children": [
       {
        "name": "Participates in high eye-risk activities",
-       "children": [
+       "_children": [
         {
          "name": "Participates in high eye-risk activities",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -2980,10 +2980,10 @@
       },
       {
        "name": "Wears eye protection during high risk activities",
-       "children": [
+       "_children": [
         {
          "name": "1. Always",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -2992,7 +2992,7 @@
         },
         {
          "name": "5. Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3001,7 +3001,7 @@
         },
         {
          "name": "2. Most of the time",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3010,7 +3010,7 @@
         },
         {
          "name": "4. None of the time",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3019,7 +3019,7 @@
         },
         {
          "name": "6. Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3028,7 +3028,7 @@
         },
         {
          "name": "3. Some of the time",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3041,13 +3041,13 @@
     },
     {
      "name": "Imaging or Diagnostic Test",
-     "children": [
+     "_children": [
       {
        "name": "Patients receiving service",
-       "children": [
+       "_children": [
         {
          "name": "Gonioscopy\u00a0",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3072,7 +3072,7 @@
         },
         {
          "name": "Visual field testing",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3097,7 +3097,7 @@
         },
         {
          "name": "Tonometry\u00a0test",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3122,7 +3122,7 @@
         },
         {
          "name": "Optical coherence tomography (OCT)",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3147,7 +3147,7 @@
         },
         {
          "name": "Stereo fundus exam",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3172,7 +3172,7 @@
         },
         {
          "name": "Flourescein angiography",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3197,7 +3197,7 @@
         },
         {
          "name": " Any diagnostic eye test",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3226,13 +3226,13 @@
     },
     {
      "name": "Screening Services",
-     "children": [
+     "_children": [
       {
        "name": "Patients receiving service",
-       "children": [
+       "_children": [
         {
          "name": " Any eye or vision screening",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -3241,7 +3241,7 @@
         },
         {
          "name": "Glaucoma screening",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -3250,7 +3250,7 @@
         },
         {
          "name": "Vision screening",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -3259,7 +3259,7 @@
         },
         {
          "name": "Diabetic Retinopathy Telemedicine Screening",
-         "children": [
+         "_children": [
           {
            "name": "Medicare (FFS claims)",
            "size": "100"
@@ -3268,9 +3268,9 @@
         },
         {
          "name": "Child ever have vision screening",
-         "children": [
+         "_children": [
           {
-           "name": "NSCH (children survey)",
+           "name": "NSCH (_children survey)",
            "size": "100"
           }
          ]
@@ -3281,13 +3281,13 @@
     },
     {
      "name": "Vision Correction",
-     "children": [
+     "_children": [
       {
        "name": "Patients receiving service",
-       "children": [
+       "_children": [
         {
          "name": "Contact lens or fitting",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3312,7 +3312,7 @@
         },
         {
          "name": "Eyeglasses",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3337,7 +3337,7 @@
         },
         {
          "name": " Any vision correction",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3364,10 +3364,10 @@
       },
       {
        "name": "Self-reported receipt of service",
-       "children": [
+       "_children": [
         {
          "name": "Vision correction: Wears glasses or contacts",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3376,7 +3376,7 @@
         },
         {
          "name": "Vision correction: Wears glasses",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3389,13 +3389,13 @@
     },
     {
      "name": "Eye Care Providers",
-     "children": [
+     "_children": [
       {
        "name": "Ophthalmologists",
-       "children": [
+       "_children": [
         {
          "name": "Ophthalmologists per 1,000 residents",
-         "children": [
+         "_children": [
           {
            "name": "Area Resource File",
            "size": "100"
@@ -3406,10 +3406,10 @@
       },
       {
        "name": "Optometrists",
-       "children": [
+       "_children": [
         {
          "name": "Optometrists per 1,000 residents",
-         "children": [
+         "_children": [
           {
            "name": "Area Resource File",
            "size": "100"
@@ -3420,10 +3420,10 @@
       },
       {
        "name": "Any eye care provider",
-       "children": [
+       "_children": [
         {
          "name": "Eye care providers per 1,000 residents",
-         "children": [
+         "_children": [
           {
            "name": "Area Resource File",
            "size": "100"
@@ -3438,16 +3438,16 @@
   },
   {
    "name": "Visual Problems",
-   "children": [
+   "_children": [
     {
      "name": "Diagnosed Vision Disorders",
-     "children": [
+     "_children": [
       {
        "name": "Diagnosed refractive error",
-       "children": [
+       "_children": [
         {
          "name": " All refraction and accommodation",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3472,7 +3472,7 @@
         },
         {
          "name": "Astigmatism",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3497,7 +3497,7 @@
         },
         {
          "name": "Hypermetropia",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3522,7 +3522,7 @@
         },
         {
          "name": "Myopia",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3547,7 +3547,7 @@
         },
         {
          "name": "Other disorders of refraction and accommodation",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3572,7 +3572,7 @@
         },
         {
          "name": "Presbyopia",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3599,10 +3599,10 @@
       },
       {
        "name": "Diagnosed vision loss and blindness",
-       "children": [
+       "_children": [
         {
          "name": " Any diagnosed blindness or vision loss",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3627,7 +3627,7 @@
         },
         {
          "name": "Blindness one eye, low vision other eye",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3652,7 +3652,7 @@
         },
         {
          "name": "Blindness, both eyes, including legal blindness",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3677,7 +3677,7 @@
         },
         {
          "name": "Low vision or blindness, one eye",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3702,7 +3702,7 @@
         },
         {
          "name": "Low vision, both eyes",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3727,7 +3727,7 @@
         },
         {
          "name": "Unqualified impairment in one eye, or unspecified",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3752,7 +3752,7 @@
         },
         {
          "name": "Unqualified impairment, both eyes",
-         "children": [
+         "_children": [
           {
            "name": "Commercial Insurance (claims)",
            "size": "100"
@@ -3779,10 +3779,10 @@
       },
       {
        "name": "Diagnosed visual disturbances",
-       "children": [
+       "_children": [
         {
          "name": " Any visual disturbances",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3807,7 +3807,7 @@
         },
         {
          "name": "Color blindness",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3832,7 +3832,7 @@
         },
         {
          "name": "Night blindness",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3857,7 +3857,7 @@
         },
         {
          "name": "Visual field defect",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -3886,13 +3886,13 @@
     },
     {
      "name": " Vision Loss and Blindness",
-     "children": [
+     "_children": [
       {
        "name": "Self-assessed vision loss and blindness",
-       "children": [
+       "_children": [
         {
          "name": "Blind or unable to see",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3905,7 +3905,7 @@
         },
         {
          "name": "Trouble seeing even with glasses",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3914,7 +3914,7 @@
         },
         {
          "name": "Blind or difficultly seeing even with glasses",
-         "children": [
+         "_children": [
           {
            "name": "ACS (survey)",
            "size": "100"
@@ -3933,10 +3933,10 @@
       },
       {
        "name": "Self-assessed difficulty seeing",
-       "children": [
+       "_children": [
         {
          "name": "1. No difficulty",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3945,7 +3945,7 @@
         },
         {
          "name": "2. Some difficulty",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3954,7 +3954,7 @@
         },
         {
          "name": "3. A lot of difficulty",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3963,7 +3963,7 @@
         },
         {
          "name": "4. Cannot do at all/Unable to do",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3972,7 +3972,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3981,7 +3981,7 @@
         },
         {
          "name": "Not ascertained",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -3990,7 +3990,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4001,10 +4001,10 @@
       },
       {
        "name": "Measured acuity - Best corrected",
-       "children": [
+       "_children": [
         {
          "name": " Any vision loss",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4017,7 +4017,7 @@
         },
         {
          "name": "Monocular vision loss",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4030,7 +4030,7 @@
         },
         {
          "name": "US legal blindness",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4043,7 +4043,7 @@
         },
         {
          "name": "Visual impairment",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4056,7 +4056,7 @@
         },
         {
          "name": "Missing acuity",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -4065,7 +4065,7 @@
         },
         {
          "name": "WHO-defined blindness",
-         "children": [
+         "_children": [
           {
            "name": "IRIS\u00ae Registry (EHR)",
            "size": "100"
@@ -4076,10 +4076,10 @@
       },
       {
        "name": "Measured acuity - Presenting",
-       "children": [
+       "_children": [
         {
          "name": " Any vision loss",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4088,7 +4088,7 @@
         },
         {
          "name": "Monocular vision loss",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4097,7 +4097,7 @@
         },
         {
          "name": "US legal blindness",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4106,7 +4106,7 @@
         },
         {
          "name": "Visual impairment",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4117,10 +4117,10 @@
       },
       {
        "name": "Measured acuity - Uncorrected refractive error",
-       "children": [
+       "_children": [
         {
          "name": "Uncorrected refractive error (URE)",
-         "children": [
+         "_children": [
           {
            "name": "NHANES (examination survey)",
            "size": "100"
@@ -4131,10 +4131,10 @@
       },
       {
        "name": " VEHSS: Comprehensive Estimate",
-       "children": [
+       "_children": [
         {
          "name": " Any vision loss",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Comprehensive Estimate",
            "size": "100"
@@ -4143,7 +4143,7 @@
         },
         {
          "name": "US legal blindness",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Comprehensive Estimate",
            "size": "100"
@@ -4152,7 +4152,7 @@
         },
         {
          "name": "Visual impairment",
-         "children": [
+         "_children": [
           {
            "name": "VEHSS Comprehensive Estimate",
            "size": "100"
@@ -4165,13 +4165,13 @@
     },
     {
      "name": "Functional Limitations",
-     "children": [
+     "_children": [
       {
        "name": "Difficulty doing work requiring seeing up close",
-       "children": [
+       "_children": [
         {
          "name": "1. Not at all difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4180,7 +4180,7 @@
         },
         {
          "name": "2. Only a little difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4189,7 +4189,7 @@
         },
         {
          "name": "3. Somewhat difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4198,7 +4198,7 @@
         },
         {
          "name": "4. Very difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4207,7 +4207,7 @@
         },
         {
          "name": "5. Can't do at all because of eyesight",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4216,7 +4216,7 @@
         },
         {
          "name": "Do not do this activity for other reasons",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4225,7 +4225,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4234,7 +4234,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4245,10 +4245,10 @@
       },
       {
        "name": "Difficulty driving during daytime",
-       "children": [
+       "_children": [
         {
          "name": "1. Not at all difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4257,7 +4257,7 @@
         },
         {
          "name": "2. Only a little difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4266,7 +4266,7 @@
         },
         {
          "name": "3. Somewhat difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4275,7 +4275,7 @@
         },
         {
          "name": "4. Very difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4284,7 +4284,7 @@
         },
         {
          "name": "5. Can't do at all because of eyesight",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4293,7 +4293,7 @@
         },
         {
          "name": "Do not do this activity for other reasons",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4302,7 +4302,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4311,7 +4311,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4322,10 +4322,10 @@
       },
       {
        "name": "Difficulty finding something on a crowded shelf",
-       "children": [
+       "_children": [
         {
          "name": "1. Not at all difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4334,7 +4334,7 @@
         },
         {
          "name": "2. Only a little difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4343,7 +4343,7 @@
         },
         {
          "name": "3. Somewhat difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4352,7 +4352,7 @@
         },
         {
          "name": "4. Very difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4361,7 +4361,7 @@
         },
         {
          "name": "5. Can't do at all because of eyesight",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4370,7 +4370,7 @@
         },
         {
          "name": "Do not do this activity for other reasons",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4379,7 +4379,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4388,7 +4388,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4399,10 +4399,10 @@
       },
       {
        "name": "Difficulty going down steps in dim light/night",
-       "children": [
+       "_children": [
         {
          "name": "1. Not at all difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4411,7 +4411,7 @@
         },
         {
          "name": "2. Only a little difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4420,7 +4420,7 @@
         },
         {
          "name": "3. Somewhat difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4429,7 +4429,7 @@
         },
         {
          "name": "4. Very difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4438,7 +4438,7 @@
         },
         {
          "name": "5. Can't do at all because of eyesight",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4447,7 +4447,7 @@
         },
         {
          "name": "Do not do this activity for other reasons",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4456,7 +4456,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4465,7 +4465,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4476,10 +4476,10 @@
       },
       {
        "name": "Difficulty noticing objects off to the side",
-       "children": [
+       "_children": [
         {
          "name": "1. Not at all difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4488,7 +4488,7 @@
         },
         {
          "name": "2. Only a little difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4497,7 +4497,7 @@
         },
         {
          "name": "3. Somewhat difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4506,7 +4506,7 @@
         },
         {
          "name": "4. Very difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4515,7 +4515,7 @@
         },
         {
          "name": "5. Can't do at all because of eyesight",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4524,7 +4524,7 @@
         },
         {
          "name": "Do not do this activity for other reasons",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4533,7 +4533,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4542,7 +4542,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4553,10 +4553,10 @@
       },
       {
        "name": "Difficulty reading ordinary newsprint",
-       "children": [
+       "_children": [
         {
          "name": "1. Not at all difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4565,7 +4565,7 @@
         },
         {
          "name": "2. Only a little difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4574,7 +4574,7 @@
         },
         {
          "name": "3. Somewhat difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4583,7 +4583,7 @@
         },
         {
          "name": "4. Very difficult",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4592,7 +4592,7 @@
         },
         {
          "name": "5. Can't do at all because of eyesight",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4601,7 +4601,7 @@
         },
         {
          "name": "Do not do this activity for other reasons",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4610,7 +4610,7 @@
         },
         {
          "name": "Don't Know",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
@@ -4619,7 +4619,7 @@
         },
         {
          "name": "Refused",
-         "children": [
+         "_children": [
           {
            "name": "NHIS (survey)",
            "size": "100"
