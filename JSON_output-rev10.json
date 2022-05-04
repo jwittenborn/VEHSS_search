@@ -2,7 +2,7 @@
  "name": "VEHSS Indicator Search",
  "children": [
   {
-   "name": "VEHSS Indicators",
+   "name": "hierarchy3",
    "_children": [
     {
      "name": "Vision Problems",
