@@ -1,8 +1,6 @@
-{
- "name": "VEHSS Indicator Search",
- "children": [
+
   {
-   "name": "VEHSS Indicators",
+   "name": "VEHSS Indicators3",
    "children": [
     {
      "name": "Age-related Macular Degeneration (AMD)",
@@ -11,7 +9,7 @@
        "name": "Prevalence",
        "_children": [
         {
-         "name": "Diagnosed AMD",
+         "name": "Diagnosed AMD, clinical stages",
          "_children": [
           {
            "name": " Compare all AMD stages (not mutually exclusive)",
@@ -92,25 +90,6 @@
             },
             {
              "name": "R3_4",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed AMD-Any stage",
-           "_children": [
-            {
-             "name": "R3_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -238,7 +217,36 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed AMD, any stage",
+         "_children": [
+          {
+           "name": "Diagnosed AMD-Any stage",
+           "_children": [
+            {
+             "name": "R3_ALL",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed AMD, vision threatening",
+         "_children": [
           {
            "name": " Compare vision threatening vs non-vision threatening stage",
            "_children": [
@@ -275,10 +283,10 @@
          ]
         },
         {
-         "name": "Examination-based Prevalence",
+         "name": "Examination-based AMD",
          "_children": [
           {
-           "name": "Age related macular degeneration",
+           "name": "Examination-based AMD-Any stage",
            "_children": [
             {
              "name": "RYES",
@@ -299,10 +307,10 @@
          ]
         },
         {
-         "name": "Self-reported prevalence",
+         "name": "Self-reported AMD",
          "_children": [
           {
-           "name": "Age related macular degeneration",
+           "name": "Self-reported AMD-Any stage",
            "_children": [
             {
              "name": "RYES",
@@ -480,7 +488,7 @@
        "name": "Prevalence",
        "_children": [
         {
-         "name": "Diagnosed cataract",
+         "name": "Diagnosed cataract, clinical types",
          "_children": [
           {
            "name": "Diagnosed cataract-Any stage",
@@ -591,25 +599,6 @@
            ]
           },
           {
-           "name": "Diagnosed Age-related cataract",
-           "_children": [
-            {
-             "name": "R6_7",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
            "name": "Diagnosed Aphakia and disorders of lens",
            "_children": [
             {
@@ -684,7 +673,36 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed cataract, any type",
+         "_children": [
+          {
+           "name": "Diagnosed Age-related cataract",
+           "_children": [
+            {
+             "name": "R6_7",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed cataract, treated vs untreated",
+         "_children": [
           {
            "name": " Compare Diagnosed Untreated cataract vs Treated cataract (pseudophakia)",
            "_children": [
@@ -721,7 +739,7 @@
          ]
         },
         {
-         "name": "Self-reported prevalence",
+         "name": "Self-reported cataract",
          "_children": [
           {
            "name": "Percentage of adults ever told they had cataracts",
@@ -750,10 +768,10 @@
        "name": "Receipt of Services",
        "_children": [
         {
-         "name": "Self-reported prevalence",
+         "name": "Self-reported cataract treatment",
          "_children": [
           {
-           "name": "Cataract surgery (self-report)",
+           "name": "Cataract surgery",
            "_children": [
             {
              "name": "RYES",
@@ -770,7 +788,12 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Self-reported cataract",
+         "_children": [
           {
            "name": "Percentage of adults ?55, or adults ?18 with diagnosed cataract, who report ever having cataract surgery",
            "_children": [
@@ -793,7 +816,7 @@
          ]
         },
         {
-         "name": "Treatment of diagnosed cataract patients",
+         "name": "Cataract treatment",
          "_children": [
           {
            "name": "Cataract surgery",
@@ -827,7 +850,7 @@
        "name": "Prevalence",
        "_children": [
         {
-         "name": "Diagnosed Diabetic Retinopathy",
+         "name": "Diagnosed Diabetic Retinopathy, any stage",
          "_children": [
           {
            "name": "Diagnosed Diabetic Retinopathy-Any stage",
@@ -847,7 +870,12 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed Diabetic Retinopathy, clinical stages",
+         "_children": [
           {
            "name": " Compare all diabetic retinopathy stages (not mutually exclusive)",
            "_children": [
@@ -1031,7 +1059,12 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed Diabetic Retinopathy, vision threatening",
+         "_children": [
           {
            "name": " Compare vision threatening vs non-vision threatening stage",
            "_children": [
@@ -1068,7 +1101,7 @@
          ]
         },
         {
-         "name": "Examination-based Prevalence",
+         "name": "Examination-based diabetic retiniopathy",
          "_children": [
           {
            "name": "Diabetic Retinopathy-Any stage",
@@ -1092,7 +1125,7 @@
          ]
         },
         {
-         "name": "Self-reported prevalence",
+         "name": "Self-reported diabetic retiniopathy",
          "_children": [
           {
            "name": "Diabetic Retinopathy-Any stage",
@@ -1306,7 +1339,7 @@
        "name": "Prevalence",
        "_children": [
         {
-         "name": "Diagnosed glaucoma",
+         "name": "Diagnosed glaucoma, any type",
          "_children": [
           {
            "name": "Diagnosed glaucoma-Any stage",
@@ -1326,7 +1359,12 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed glaucoma, clinical types",
+         "_children": [
           {
            "name": " Compare all glaucoma stages",
            "_children": [
@@ -1543,7 +1581,12 @@
              ]
             }
            ]
-          },
+          }
+         ]
+        },
+        {
+         "name": "Diagnosed glaucoma, specified vs suspect or unspecified",
+         "_children": [
           {
            "name": " Compare specified glaucoma vs suspect/unspecified",
            "_children": [
@@ -1580,7 +1623,7 @@
          ]
         },
         {
-         "name": "Examination-based prevalence",
+         "name": "Examination-based glaucoma",
          "_children": [
           {
            "name": "Glaucoma-Any stage",
@@ -1604,7 +1647,7 @@
          ]
         },
         {
-         "name": "Self-reported prevalence",
+         "name": "Self-reported glaucoma",
          "_children": [
           {
            "name": "Glaucoma-Any stage",
@@ -4775,7 +4818,7 @@
              "name": "RVMISS",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4789,7 +4832,7 @@
              "name": "RVMON",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4812,7 +4855,7 @@
              "name": "RVUSB",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4835,7 +4878,7 @@
              "name": "RVIMP",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4858,7 +4901,7 @@
              "name": "RVWB",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4877,7 +4920,7 @@
              "name": "RVMISS",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4896,7 +4939,7 @@
              "name": "RVANY",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4924,7 +4967,7 @@
              "name": "RVUSB",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4952,7 +4995,7 @@
              "name": "RVMON",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4990,7 +5033,7 @@
              "name": "RVIMP",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -5018,7 +5061,7 @@
              "name": "RVWB",
              "_children": [
               {
-               "name": "IRIS\u00ab Registry (EHR)",
+               "name": "IRIS\u00bd Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -6528,5 +6571,4 @@
     }
    ]
   }
- ]
-}
+
