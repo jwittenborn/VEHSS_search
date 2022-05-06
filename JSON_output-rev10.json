@@ -14,10 +14,28 @@
          "name": "Diagnosed AMD",
          "_children": [
           {
-           "name": "Compare all amd stages (not mutually exclusive)",
+           "name": " Compare all AMD stages (not mutually exclusive)",
            "_children": [
             {
-             "name": "All Age-related macular degeneration (AMD)",
+             "name": "R3_4CNV",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                },
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "R3_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -31,7 +49,7 @@
              ]
             },
             {
-             "name": "Choroidal neovascularization",
+             "name": "R3_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -45,7 +63,7 @@
              ]
             },
             {
-             "name": "Dry-form age-related macular degeneration",
+             "name": "R3_3GA",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -59,7 +77,7 @@
              ]
             },
             {
-             "name": "Early stage age-related macular degeneration",
+             "name": "R3_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -73,7 +91,159 @@
              ]
             },
             {
-             "name": "Geographic atrophy",
+             "name": "R3_4",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Any stage",
+           "_children": [
+            {
+             "name": "R3_ALL",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Choroidal neovascularization",
+           "_children": [
+            {
+             "name": "R3_4CNV",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Early dry form ",
+           "_children": [
+            {
+             "name": "R3_2",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Geographic atrophy ",
+           "_children": [
+            {
+             "name": "R3_3GA",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Intermediate dry-form ",
+           "_children": [
+            {
+             "name": "R3_3",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Unspecified ",
+           "_children": [
+            {
+             "name": "R3_1",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diagnosed AMD-Wet-form",
+           "_children": [
+            {
+             "name": "R3_4",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": " Compare vision threatening vs non-vision threatening stage",
+           "_children": [
+            {
+             "name": "R3_NVT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -87,197 +257,7 @@
              ]
             },
             {
-             "name": "Unspecified-age related macular degeneration",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            },
-            {
-             "name": "Wet-form age-related macular degeneration",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-any stage",
-           "_children": [
-            {
-             "name": "All Age-related macular degeneration (AMD)",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-choroidal neovascularization",
-           "_children": [
-            {
-             "name": "Choroidal neovascularization",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-early dry form ",
-           "_children": [
-            {
-             "name": "Early stage age-related macular degeneration",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-geographic atrophy ",
-           "_children": [
-            {
-             "name": "Geographic atrophy",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-intermediate dry-form ",
-           "_children": [
-            {
-             "name": "Dry-form age-related macular degeneration",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-unspecified ",
-           "_children": [
-            {
-             "name": "Unspecified-age related macular degeneration",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd-wet-form",
-           "_children": [
-            {
-             "name": "Wet-form age-related macular degeneration",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "name": "Diagnosed AMD, by vision threatening stage",
-         "_children": [
-          {
-           "name": "Diagnosed amd, non vision threatening stage",
-           "_children": [
-            {
-             "name": "Non-vision threatening stage",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diagnosed amd, vision threatening stage",
-           "_children": [
-            {
-             "name": "Vision threatening stage",
+             "name": "R3_VT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -301,7 +281,7 @@
            "name": "Age related macular degeneration",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -325,7 +305,7 @@
            "name": "Age related macular degeneration",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -357,13 +337,13 @@
        "name": "Receipt of Services",
        "_children": [
         {
-         "name": "Treatment of diagnosed AMD patients",
+         "name": "Treatment of diagnosed AMD patients, any treatment",
          "_children": [
           {
-           "name": "Any age-related macular degeneration (amd) treatment",
+           "name": "Any age-related macular degeneration (AMD) treatment",
            "_children": [
             {
-             "name": "Any age related macular degeneration treatment",
+             "name": "RAMDANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -384,10 +364,10 @@
          "name": "Treatment of diagnosed AMD patients, by service type",
          "_children": [
           {
-           "name": "Anti-vegf injection",
+           "name": "Anti-VEGF injection",
            "_children": [
             {
-             "name": "Anti-VEGF injections",
+             "name": "RVEGF",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -403,10 +383,10 @@
            ]
           },
           {
-           "name": "Compare receipt of amd treatment types",
+           "name": " Compare receipt of AMD treatment types",
            "_children": [
             {
-             "name": "Anti-VEGF injections",
+             "name": "RVEGF",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -420,7 +400,7 @@
              ]
             },
             {
-             "name": "Laser surgery",
+             "name": "RLASER",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -434,7 +414,7 @@
              ]
             },
             {
-             "name": "Photodynamic therapy",
+             "name": "RPHOTO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -453,7 +433,7 @@
            "name": "Laser surgery",
            "_children": [
             {
-             "name": "Laser surgery",
+             "name": "RLASER",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -472,7 +452,7 @@
            "name": "Photodynamic therapy",
            "_children": [
             {
-             "name": "Photodynamic therapy",
+             "name": "RPHOTO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -503,10 +483,10 @@
          "name": "Diagnosed cataract",
          "_children": [
           {
-           "name": "Diagnosed cataract-any stage",
+           "name": "Diagnosed cataract-Any stage",
            "_children": [
             {
-             "name": "All Cataracts",
+             "name": "R6_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -522,10 +502,10 @@
            ]
           },
           {
-           "name": "Compare all cataract stages (not mutually exclusive)",
+           "name": " Compare all cataract stages (not mutually exclusive)",
            "_children": [
             {
-             "name": "All Cataracts",
+             "name": "R6_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -539,7 +519,7 @@
              ]
             },
             {
-             "name": "Age-related cataract",
+             "name": "R6_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -553,7 +533,7 @@
              ]
             },
             {
-             "name": "Aphakia and disorders of lens",
+             "name": "R6_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -567,7 +547,7 @@
              ]
             },
             {
-             "name": "Congenital Cataract",
+             "name": "R6_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -581,7 +561,7 @@
              ]
             },
             {
-             "name": "Other or unspecified cataract",
+             "name": "R6_8",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -595,7 +575,7 @@
              ]
             },
             {
-             "name": "Posterior capsular opacity",
+             "name": "R6_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -611,10 +591,10 @@
            ]
           },
           {
-           "name": "Diagnosed age-related cataract",
+           "name": "Diagnosed Age-related cataract",
            "_children": [
             {
-             "name": "Age-related cataract",
+             "name": "R6_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -630,10 +610,10 @@
            ]
           },
           {
-           "name": "Diagnosed aphakia and disorders of lens",
+           "name": "Diagnosed Aphakia and disorders of lens",
            "_children": [
             {
-             "name": "Aphakia and disorders of lens",
+             "name": "R6_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -649,10 +629,10 @@
            ]
           },
           {
-           "name": "Diagnosed congenital cataract",
+           "name": "Diagnosed Congenital Cataract",
            "_children": [
             {
-             "name": "Congenital Cataract",
+             "name": "R6_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -668,10 +648,10 @@
            ]
           },
           {
-           "name": "Diagnosed other or unspecified cataract",
+           "name": "Diagnosed Other or unspecified cataract",
            "_children": [
             {
-             "name": "Other or unspecified cataract",
+             "name": "R6_8",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -687,34 +667,10 @@
            ]
           },
           {
-           "name": "Diagnosed posterior capsular opacity",
+           "name": "Diagnosed Posterior capsular opacity",
            "_children": [
             {
-             "name": "Posterior capsular opacity",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "name": "Diagnosed cataract, by treatment status",
-         "_children": [
-          {
-           "name": "Diagnosed untreated cataract",
-           "_children": [
-            {
-             "name": "Diagnosed untreated cataract",
+             "name": "R6_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -730,10 +686,24 @@
            ]
           },
           {
-           "name": "Treated cataract (pseudophakia)",
+           "name": " Compare Diagnosed Untreated cataract vs Treated cataract (pseudophakia)",
            "_children": [
             {
-             "name": "Pseudophakia",
+             "name": "R6_NTX",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "R6_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -757,7 +727,7 @@
            "name": "Percentage of adults ever told they had cataracts",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -786,7 +756,7 @@
            "name": "Cataract surgery (self-report)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -805,7 +775,7 @@
            "name": "Percentage of adults ?55, or adults ?18 with diagnosed cataract, who report ever having cataract surgery",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -829,7 +799,7 @@
            "name": "Cataract surgery",
            "_children": [
             {
-             "name": "Cataract surgery",
+             "name": "RCATSUR",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -860,10 +830,10 @@
          "name": "Diagnosed Diabetic Retinopathy",
          "_children": [
           {
-           "name": "Diagnosed diabetic retinopathy-any stage",
+           "name": "Diagnosed Diabetic Retinopathy-Any stage",
            "_children": [
             {
-             "name": "All Diabetic eye diseases",
+             "name": "R2_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -879,10 +849,10 @@
            ]
           },
           {
-           "name": "Compare all diabetic retinopathy stages (not mutually exclusive)",
+           "name": " Compare all diabetic retinopathy stages (not mutually exclusive)",
            "_children": [
             {
-             "name": "All Diabetic eye diseases",
+             "name": "R2_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -896,7 +866,7 @@
              ]
             },
             {
-             "name": "Diabetic macular edema",
+             "name": "R2_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -910,7 +880,7 @@
              ]
             },
             {
-             "name": "Non-proliferative",
+             "name": "R2_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -924,7 +894,7 @@
              ]
             },
             {
-             "name": "Other diabetes related eye disorders",
+             "name": "R2_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -938,7 +908,7 @@
              ]
             },
             {
-             "name": "Proliferative diabetic retinopathy",
+             "name": "R2_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -952,7 +922,7 @@
              ]
             },
             {
-             "name": "Severe non-proliferative",
+             "name": "R2_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -968,10 +938,10 @@
            ]
           },
           {
-           "name": "Diagnosed diabetic macular edema",
+           "name": "Diagnosed Diabetic macular edema",
            "_children": [
             {
-             "name": "Diabetic macular edema",
+             "name": "R2_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -987,10 +957,10 @@
            ]
           },
           {
-           "name": "Diagnosed non-proliferative diabetic retinopathy",
+           "name": "Diagnosed Non-proliferative diabetic retinopathy",
            "_children": [
             {
-             "name": "Non-proliferative",
+             "name": "R2_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1006,10 +976,10 @@
            ]
           },
           {
-           "name": "Diagnosed proliferative diabetic retinopathy",
+           "name": "Diagnosed Proliferative diabetic retinopathy",
            "_children": [
             {
-             "name": "Proliferative diabetic retinopathy",
+             "name": "R2_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1025,10 +995,10 @@
            ]
           },
           {
-           "name": "Diagnosed severe non-proliferative diabetic retinopathy",
+           "name": "Diagnosed Severe non-proliferative diabetic retinopathy",
            "_children": [
             {
-             "name": "Severe non-proliferative",
+             "name": "R2_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1044,34 +1014,10 @@
            ]
           },
           {
-           "name": "Diagnosed unspecified diabetic eye disease",
+           "name": "Diagnosed Unspecified diabetic eye disease",
            "_children": [
             {
-             "name": "Other diabetes related eye disorders",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "name": "Diagnosed Diabetic Retinopathy, by vision threatening stage",
-         "_children": [
-          {
-           "name": "Diagnosed non vision threatening dr stage",
-           "_children": [
-            {
-             "name": "Non-vision threatening stage",
+             "name": "R2_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1087,10 +1033,24 @@
            ]
           },
           {
-           "name": "Diagnosed vision threatening dr stage",
+           "name": " Compare vision threatening vs non-vision threatening stage",
            "_children": [
             {
-             "name": "Vision threatening stage",
+             "name": "R2_NVT",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "R2_VT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1111,10 +1071,10 @@
          "name": "Examination-based Prevalence",
          "_children": [
           {
-           "name": "Diabetic retinopathy-any stage",
+           "name": "Diabetic Retinopathy-Any stage",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -1135,10 +1095,10 @@
          "name": "Self-reported prevalence",
          "_children": [
           {
-           "name": "Diabetic retinopathy-any stage",
+           "name": "Diabetic Retinopathy-Any stage",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -1170,13 +1130,13 @@
        "name": "Receipt of Services",
        "_children": [
         {
-         "name": "Treatment of diagnosed DR patients",
+         "name": "Treatment of diagnosed DR patients, any treatment",
          "_children": [
           {
-           "name": "Any diabetic retinopathy (dr) treatment",
+           "name": "any diabetic retinopathy (DR) treatment",
            "_children": [
             {
-             "name": "Any diabetic retinopathy treatment",
+             "name": "RDRANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1197,10 +1157,10 @@
          "name": "Treatment of diagnosed DR patients, by service type",
          "_children": [
           {
-           "name": "Anti-vegf injections",
+           "name": "Anti-VEGF injections",
            "_children": [
             {
-             "name": "Anti-VEGF injections",
+             "name": "RVEGF",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1216,10 +1176,10 @@
            ]
           },
           {
-           "name": "Compare dr treatments ",
+           "name": " Compare DR treatments ",
            "_children": [
             {
-             "name": "Anti-VEGF injections",
+             "name": "RVEGF",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1233,7 +1193,7 @@
              ]
             },
             {
-             "name": "Laser/photocoagulation",
+             "name": "RLASPH",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1247,7 +1207,7 @@
              ]
             },
             {
-             "name": "Retinal detachment repair",
+             "name": "RDRRET",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1261,7 +1221,7 @@
              ]
             },
             {
-             "name": "Victrectomy",
+             "name": "RDRVIC",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1280,7 +1240,7 @@
            "name": "Laser/photocoagulation",
            "_children": [
             {
-             "name": "Laser/photocoagulation",
+             "name": "RLASPH",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1299,7 +1259,7 @@
            "name": "Retinal detachment repair",
            "_children": [
             {
-             "name": "Retinal detachment repair",
+             "name": "RDRRET",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1318,7 +1278,7 @@
            "name": "Victrectomy",
            "_children": [
             {
-             "name": "Victrectomy",
+             "name": "RDRVIC",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1349,10 +1309,10 @@
          "name": "Diagnosed glaucoma",
          "_children": [
           {
-           "name": "Diagnosed glaucoma-any stage",
+           "name": "Diagnosed glaucoma-Any stage",
            "_children": [
             {
-             "name": "All Glaucoma",
+             "name": "R5_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1366,17 +1326,12 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Diagnosed prevalence, by clinical stage",
-         "_children": [
+          },
           {
-           "name": "Compare all glaucoma stages",
+           "name": " Compare all glaucoma stages",
            "_children": [
             {
-             "name": "All Glaucoma",
+             "name": "R5_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1390,7 +1345,7 @@
              ]
             },
             {
-             "name": "Glaucoma suspect",
+             "name": "R5_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1404,7 +1359,7 @@
              ]
             },
             {
-             "name": "Open-angle glaucoma",
+             "name": "R5_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1418,7 +1373,7 @@
              ]
             },
             {
-             "name": "Other/unspecified glaucoma",
+             "name": "R5_9",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1432,7 +1387,7 @@
              ]
             },
             {
-             "name": "Primary angle-closure glaucoma",
+             "name": "R5_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1446,7 +1401,7 @@
              ]
             },
             {
-             "name": "Secondary glaucoma",
+             "name": "R5_10",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1460,7 +1415,7 @@
              ]
             },
             {
-             "name": "Severe stage",
+             "name": "R5_XS",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1476,10 +1431,10 @@
            ]
           },
           {
-           "name": "Diagnosed glaucoma suspect",
+           "name": "Diagnosed Glaucoma suspect",
            "_children": [
             {
-             "name": "Glaucoma suspect",
+             "name": "R5_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1495,10 +1450,10 @@
            ]
           },
           {
-           "name": "Diagnosed open-angle glaucoma",
+           "name": "Diagnosed Open-angle glaucoma",
            "_children": [
             {
-             "name": "Open-angle glaucoma",
+             "name": "R5_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1514,10 +1469,10 @@
            ]
           },
           {
-           "name": "Diagnosed other/unspecified glaucoma",
+           "name": "Diagnosed Other/unspecified glaucoma",
            "_children": [
             {
-             "name": "Other/unspecified glaucoma",
+             "name": "R5_9",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1533,10 +1488,10 @@
            ]
           },
           {
-           "name": "Diagnosed primary angle-closure glaucoma ",
+           "name": "Diagnosed Primary angle-closure glaucoma ",
            "_children": [
             {
-             "name": "Primary angle-closure glaucoma",
+             "name": "R5_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1552,10 +1507,10 @@
            ]
           },
           {
-           "name": "Diagnosed secondary glaucoma",
+           "name": "Diagnosed Secondary glaucoma",
            "_children": [
             {
-             "name": "Secondary glaucoma",
+             "name": "R5_10",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1571,34 +1526,10 @@
            ]
           },
           {
-           "name": "Diagnosed severe stage glaucoma",
+           "name": "Diagnosed Severe stage glaucoma",
            "_children": [
             {
-             "name": "Severe stage",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "name": "Diagnosed prevalence, specified vs suspect",
-         "_children": [
-          {
-           "name": "Glaucoma-any specified stage",
-           "_children": [
-            {
-             "name": "Specified glaucoma",
+             "name": "R5_XS",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1614,10 +1545,24 @@
            ]
           },
           {
-           "name": "Suspect or unspecified glaucoma",
+           "name": " Compare specified glaucoma vs suspect/unspecified",
            "_children": [
             {
-             "name": "Suspect or unclassified glaucoma",
+             "name": "R5_VT",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "R5_NVT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1638,10 +1583,10 @@
          "name": "Examination-based prevalence",
          "_children": [
           {
-           "name": "Glaucoma-any stage",
+           "name": "Glaucoma-Any stage",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -1662,10 +1607,10 @@
          "name": "Self-reported prevalence",
          "_children": [
           {
-           "name": "Glaucoma-any stage",
+           "name": "Glaucoma-Any stage",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -1697,13 +1642,13 @@
        "name": "Receipt of Services",
        "_children": [
         {
-         "name": "Treatment of diagnosed glaucoma patients",
+         "name": "Treatment of diagnosed glaucoma patients, any treatment",
          "_children": [
           {
            "name": "Any included glaucoma treatment",
            "_children": [
             {
-             "name": "Any glaucoma treatment",
+             "name": "RGLAANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1724,10 +1669,10 @@
          "name": "Treatment of diagnosed glaucoma patients, by service type",
          "_children": [
           {
-           "name": "Compare glaucoma treatments",
+           "name": " Compare glaucoma treatments",
            "_children": [
             {
-             "name": "Drain",
+             "name": "RGLADRN",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1741,7 +1686,7 @@
              ]
             },
             {
-             "name": "Glaucoma surgery",
+             "name": "RGLASUR",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1755,7 +1700,7 @@
              ]
             },
             {
-             "name": "Laser surgery",
+             "name": "RLASER",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1769,7 +1714,7 @@
              ]
             },
             {
-             "name": "Glaucoma prescription drugs",
+             "name": "RGLARX",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1785,10 +1730,10 @@
            ]
           },
           {
-           "name": "Glaucoma drain",
+           "name": "Glaucoma Drain",
            "_children": [
             {
-             "name": "Drain",
+             "name": "RGLADRN",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1804,10 +1749,10 @@
            ]
           },
           {
-           "name": "Glaucoma prescription drugs",
+           "name": "glaucoma Prescription drugs",
            "_children": [
             {
-             "name": "Glaucoma prescription drugs",
+             "name": "RGLARX",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1826,7 +1771,7 @@
            "name": "Laser glaucoma surgery",
            "_children": [
             {
-             "name": "Laser surgery",
+             "name": "RLASER",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1845,7 +1790,7 @@
            "name": "Other glaucoma surgery",
            "_children": [
             {
-             "name": "Glaucoma surgery",
+             "name": "RGLASUR",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1876,10 +1821,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "Any diagnosed eye disorder",
+           "name": "Any Diagnosed Eye Disorder",
            "_children": [
             {
-             "name": "Any diagnosed eye disorder",
+             "name": "RS_ANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1908,7 +1853,7 @@
            "name": "Cancer and neoplasms of the eye",
            "_children": [
             {
-             "name": "All Cancer and neoplasms of the eye diseases",
+             "name": "R15_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1932,7 +1877,7 @@
            "name": "Benign neoplasms",
            "_children": [
             {
-             "name": "Benign neoplasm",
+             "name": "R15_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1948,10 +1893,10 @@
            ]
           },
           {
-           "name": "Compare all types of cancers and neoplasms of the eye",
+           "name": " Compare all types of cancers and neoplasms of the eye",
            "_children": [
             {
-             "name": "Benign neoplasm",
+             "name": "R15_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1965,7 +1910,7 @@
              ]
             },
             {
-             "name": "Malignant neoplasm",
+             "name": "R15_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -1984,7 +1929,7 @@
            "name": "Malignant cancer and neoplasms",
            "_children": [
             {
-             "name": "Malignant neoplasm",
+             "name": "R15_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2010,10 +1955,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "Cornea disorders",
+           "name": "Cornea Disorders",
            "_children": [
             {
-             "name": "All Cornea disorders",
+             "name": "R16_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2034,10 +1979,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare all types of cornea disorders",
+           "name": " Compare all types of cornea disorders",
            "_children": [
             {
-             "name": "Endothelial dystrophy (Fuchs)",
+             "name": "R16_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2051,7 +1996,7 @@
              ]
             },
             {
-             "name": "Keratoconus",
+             "name": "R16_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2065,7 +2010,7 @@
              ]
             },
             {
-             "name": "Other corneal disorders",
+             "name": "R16_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2081,10 +2026,10 @@
            ]
           },
           {
-           "name": "Endothelial dystrophy (fuchs)",
+           "name": "Endothelial dystrophy (Fuchs)",
            "_children": [
             {
-             "name": "Endothelial dystrophy (Fuchs)",
+             "name": "R16_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2103,7 +2048,7 @@
            "name": "Keratoconus",
            "_children": [
             {
-             "name": "Keratoconus",
+             "name": "R16_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2122,7 +2067,7 @@
            "name": "Other corneal disorders",
            "_children": [
             {
-             "name": "Other corneal disorders",
+             "name": "R16_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2148,10 +2093,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "Disorders of optic nerve and visual pathways",
+           "name": "Disorders of Optic Nerve and Visual Pathways",
            "_children": [
             {
-             "name": "All Disorders of optic nerve and visual pathways",
+             "name": "R11_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2172,10 +2117,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare all types of optic nerve disorders",
+           "name": " Compare all types of optic nerve disorders",
            "_children": [
             {
-             "name": "Disorders of the visual pathway and visual cortex",
+             "name": "R11_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2189,7 +2134,7 @@
              ]
             },
             {
-             "name": "Optic nerve disorders",
+             "name": "R11_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2208,7 +2153,7 @@
            "name": "Optic nerve",
            "_children": [
             {
-             "name": "Optic nerve disorders",
+             "name": "R11_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2227,7 +2172,7 @@
            "name": "Visual pathway and cortex",
            "_children": [
             {
-             "name": "Disorders of the visual pathway and visual cortex",
+             "name": "R11_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2253,10 +2198,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "All diagnosed infectious and inflammatory diseases",
+           "name": "All Diagnosed Infectious and Inflammatory Diseases",
            "_children": [
             {
-             "name": "All Infectious and inflammatory diseases",
+             "name": "R13_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2277,10 +2222,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare all types of diagnosed infectious and inflammatory disease",
+           "name": " Compare all types of diagnosed infectious and inflammatory disease",
            "_children": [
             {
-             "name": "Conjunctivitis",
+             "name": "R13_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2294,7 +2239,7 @@
              ]
             },
             {
-             "name": "Endophthalmitis",
+             "name": "R13_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2308,7 +2253,7 @@
              ]
             },
             {
-             "name": "Eyelid infection and inflammation",
+             "name": "R13_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2322,7 +2267,7 @@
              ]
             },
             {
-             "name": "Infectious diseases",
+             "name": "R13_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2336,7 +2281,7 @@
              ]
             },
             {
-             "name": "Keratitis",
+             "name": "R13_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2350,7 +2295,7 @@
              ]
             },
             {
-             "name": "Lacrimal and orbit inflammation",
+             "name": "R13_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2364,7 +2309,7 @@
              ]
             },
             {
-             "name": "Other/unspecified infectious and inflammatory diseases",
+             "name": "R13_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2380,10 +2325,10 @@
            ]
           },
           {
-           "name": "Diagnosed conjunctivitis",
+           "name": "Diagnosed Conjunctivitis",
            "_children": [
             {
-             "name": "Conjunctivitis",
+             "name": "R13_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2399,10 +2344,10 @@
            ]
           },
           {
-           "name": "Diagnosed endophthalmitis",
+           "name": "Diagnosed Endophthalmitis",
            "_children": [
             {
-             "name": "Endophthalmitis",
+             "name": "R13_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2418,10 +2363,10 @@
            ]
           },
           {
-           "name": "Diagnosed eyelid infection and inflammation",
+           "name": "Diagnosed Eyelid infection and inflammation",
            "_children": [
             {
-             "name": "Eyelid infection and inflammation",
+             "name": "R13_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2437,10 +2382,10 @@
            ]
           },
           {
-           "name": "Diagnosed infectious diseases",
+           "name": "Diagnosed Infectious diseases",
            "_children": [
             {
-             "name": "Infectious diseases",
+             "name": "R13_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2456,10 +2401,10 @@
            ]
           },
           {
-           "name": "Diagnosed keratitis",
+           "name": "Diagnosed Keratitis",
            "_children": [
             {
-             "name": "Keratitis",
+             "name": "R13_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2475,10 +2420,10 @@
            ]
           },
           {
-           "name": "Diagnosed lacrimal and orbit inflammation",
+           "name": "Diagnosed Lacrimal and orbit inflammation",
            "_children": [
             {
-             "name": "Lacrimal and orbit inflammation",
+             "name": "R13_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2494,10 +2439,10 @@
            ]
           },
           {
-           "name": "Diagnosed other or unspecified type",
+           "name": "Diagnosed Other or unspecified type",
            "_children": [
             {
-             "name": "Other/unspecified infectious and inflammatory diseases",
+             "name": "R13_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2523,10 +2468,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "All diagnosed injury, burns and surgical complications of the eye",
+           "name": "All Diagnosed Injury, Burns and Surgical Complications of the Eye",
            "_children": [
             {
-             "name": "All Injury, burns and surgical complications of the eye",
+             "name": "R10_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2547,10 +2492,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare diagnosed injuries, burns and surgical complications",
+           "name": " Compare diagnosed injuries, burns and surgical complications",
            "_children": [
             {
-             "name": "Ocular burns",
+             "name": "R10_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2564,7 +2509,7 @@
              ]
             },
             {
-             "name": "Ocular injury",
+             "name": "R10_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2578,7 +2523,7 @@
              ]
             },
             {
-             "name": "Surgical complication of the eye",
+             "name": "R10_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2594,10 +2539,10 @@
            ]
           },
           {
-           "name": "Diagnosed ocular burns",
+           "name": "Diagnosed Ocular burns",
            "_children": [
             {
-             "name": "Ocular burns",
+             "name": "R10_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2613,10 +2558,10 @@
            ]
           },
           {
-           "name": "Diagnosed ocular injury",
+           "name": "Diagnosed Ocular injury",
            "_children": [
             {
-             "name": "Ocular injury",
+             "name": "R10_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2632,10 +2577,10 @@
            ]
           },
           {
-           "name": "Diagnosed surgical complication of the eye",
+           "name": "Diagnosed Surgical complication of the eye",
            "_children": [
             {
-             "name": "Surgical complication of the eye",
+             "name": "R10_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2661,10 +2606,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "All diagnosed orbital and external disease",
+           "name": "All Diagnosed Orbital and External Disease",
            "_children": [
             {
-             "name": "All Orbital and external disease",
+             "name": "R14_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2685,10 +2630,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare all types of diagnosed orbital and external diseases",
+           "name": " Compare all types of diagnosed orbital and external diseases",
            "_children": [
             {
-             "name": "Congenital anomalies",
+             "name": "R14_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2702,7 +2647,7 @@
              ]
             },
             {
-             "name": "Disorders of the globe",
+             "name": "R14_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2716,7 +2661,7 @@
              ]
             },
             {
-             "name": "Dry eye syndrome",
+             "name": "R14_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2730,7 +2675,7 @@
              ]
             },
             {
-             "name": "Eyelid disorders",
+             "name": "R14_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2744,7 +2689,7 @@
              ]
             },
             {
-             "name": "Lacrimal diseases",
+             "name": "R14_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2758,7 +2703,7 @@
              ]
             },
             {
-             "name": "Other/unspecified orbital and external disease",
+             "name": "R14_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2774,10 +2719,10 @@
            ]
           },
           {
-           "name": "Diagnosed congenital anomalies",
+           "name": "Diagnosed Congenital anomalies",
            "_children": [
             {
-             "name": "Congenital anomalies",
+             "name": "R14_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2793,10 +2738,10 @@
            ]
           },
           {
-           "name": "Diagnosed disorders of the globe",
+           "name": "Diagnosed Disorders of the globe",
            "_children": [
             {
-             "name": "Disorders of the globe",
+             "name": "R14_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2812,10 +2757,10 @@
            ]
           },
           {
-           "name": "Diagnosed dry eye syndrome",
+           "name": "Diagnosed Dry eye syndrome",
            "_children": [
             {
-             "name": "Dry eye syndrome",
+             "name": "R14_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2831,10 +2776,10 @@
            ]
           },
           {
-           "name": "Diagnosed eyelid disorders",
+           "name": "Diagnosed Eyelid disorders",
            "_children": [
             {
-             "name": "Eyelid disorders",
+             "name": "R14_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2850,10 +2795,10 @@
            ]
           },
           {
-           "name": "Diagnosed lacrimal diseases",
+           "name": "Diagnosed Lacrimal diseases",
            "_children": [
             {
-             "name": "Lacrimal diseases",
+             "name": "R14_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2869,10 +2814,10 @@
            ]
           },
           {
-           "name": "Diagnosed other/unspecified orbital and external disease",
+           "name": "Diagnosed Other/unspecified orbital and external disease",
            "_children": [
             {
-             "name": "Other/unspecified orbital and external disease",
+             "name": "R14_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2898,10 +2843,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "Other diagnosed eye disorders",
+           "name": "Other Diagnosed Eye Disorders",
            "_children": [
             {
-             "name": "Other eye disorders",
+             "name": "R17_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2930,7 +2875,7 @@
            "name": "Diagnosed other retinal disorders",
            "_children": [
             {
-             "name": "All Other retinal disorders",
+             "name": "R4_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2951,10 +2896,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare all types of other diagnosed retinal disorders",
+           "name": " Compare all types of other diagnosed retinal disorders",
            "_children": [
             {
-             "name": "Branch retinal artery occlusion",
+             "name": "R4_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2968,7 +2913,7 @@
              ]
             },
             {
-             "name": "Branch retinal vein occlusion",
+             "name": "R4_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2982,7 +2927,7 @@
              ]
             },
             {
-             "name": "Central retinal arterial occlusion",
+             "name": "R4_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -2996,7 +2941,7 @@
              ]
             },
             {
-             "name": "Central retinal vein occlusion",
+             "name": "R4_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3010,7 +2955,7 @@
              ]
             },
             {
-             "name": "Hereditary chorioretinal dystrophy",
+             "name": "R4_8",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3024,7 +2969,7 @@
              ]
             },
             {
-             "name": "Macular edema (Cystoid or non-diabetic)",
+             "name": "R4_12",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3038,7 +2983,7 @@
              ]
             },
             {
-             "name": "Myopic degeneration",
+             "name": "R4_9",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3052,7 +2997,7 @@
              ]
             },
             {
-             "name": "Non-Occlusive retinal vascular disease",
+             "name": "R4_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3066,7 +3011,7 @@
              ]
             },
             {
-             "name": "Occlusive retinal vascular disease",
+             "name": "R4_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3080,7 +3025,7 @@
              ]
             },
             {
-             "name": "Other/unspecified other retinal disorders",
+             "name": "R4_10",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3094,7 +3039,7 @@
              ]
             },
             {
-             "name": "Retinopathy of prematurity",
+             "name": "R4_11",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3110,10 +3055,10 @@
            ]
           },
           {
-           "name": "Diagnosed branch retinal artery occlusion",
+           "name": "Diagnosed Branch retinal artery occlusion",
            "_children": [
             {
-             "name": "Branch retinal artery occlusion",
+             "name": "R4_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3129,10 +3074,10 @@
            ]
           },
           {
-           "name": "Diagnosed branch retinal vein occlusion",
+           "name": "Diagnosed Branch retinal vein occlusion",
            "_children": [
             {
-             "name": "Branch retinal vein occlusion",
+             "name": "R4_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3148,10 +3093,10 @@
            ]
           },
           {
-           "name": "Diagnosed central retinal arterial occlusion",
+           "name": "Diagnosed Central retinal arterial occlusion",
            "_children": [
             {
-             "name": "Central retinal arterial occlusion",
+             "name": "R4_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3167,10 +3112,10 @@
            ]
           },
           {
-           "name": "Diagnosed central retinal vein occlusion",
+           "name": "Diagnosed Central retinal vein occlusion",
            "_children": [
             {
-             "name": "Central retinal vein occlusion",
+             "name": "R4_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3186,10 +3131,10 @@
            ]
           },
           {
-           "name": "Diagnosed hereditary chorioretinal dystrophy",
+           "name": "Diagnosed Hereditary chorioretinal dystrophy",
            "_children": [
             {
-             "name": "Hereditary chorioretinal dystrophy",
+             "name": "R4_8",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3205,10 +3150,10 @@
            ]
           },
           {
-           "name": "Diagnosed macular edema (cystoid or non-diabetic)",
+           "name": "Diagnosed Macular edema (Cystoid or non-diabetic)",
            "_children": [
             {
-             "name": "Macular edema (Cystoid or non-diabetic)",
+             "name": "R4_12",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3224,10 +3169,10 @@
            ]
           },
           {
-           "name": "Diagnosed myopic degeneration",
+           "name": "Diagnosed Myopic degeneration",
            "_children": [
             {
-             "name": "Myopic degeneration",
+             "name": "R4_9",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3243,10 +3188,10 @@
            ]
           },
           {
-           "name": "Diagnosed non-occlusive retinal vascular disease",
+           "name": "Diagnosed Non-Occlusive retinal vascular disease",
            "_children": [
             {
-             "name": "Non-Occlusive retinal vascular disease",
+             "name": "R4_6",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3262,10 +3207,10 @@
            ]
           },
           {
-           "name": "Diagnosed occlusive retinal vascular disease",
+           "name": "Diagnosed Occlusive retinal vascular disease",
            "_children": [
             {
-             "name": "Occlusive retinal vascular disease",
+             "name": "R4_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3281,10 +3226,10 @@
            ]
           },
           {
-           "name": "Diagnosed other/unspecified other retinal disorders",
+           "name": "Diagnosed Other/unspecified other retinal disorders",
            "_children": [
             {
-             "name": "Other/unspecified other retinal disorders",
+             "name": "R4_10",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3300,10 +3245,10 @@
            ]
           },
           {
-           "name": "Diagnosed retinopathy of prematurity",
+           "name": "Diagnosed Retinopathy of prematurity",
            "_children": [
             {
-             "name": "Retinopathy of prematurity",
+             "name": "R4_11",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3329,10 +3274,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "All diagnosed retinal detachment and defects",
+           "name": "All diagnosed Retinal Detachment and Defects",
            "_children": [
             {
-             "name": "Retinal detachment and defects",
+             "name": "R1_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3358,10 +3303,10 @@
          "name": "Diagnosed prevalence",
          "_children": [
           {
-           "name": "All diagnosed strabismus and amblyopia",
+           "name": "All diagnosed Strabismus and Amblyopia",
            "_children": [
             {
-             "name": "All Strabismus and amblyopia",
+             "name": "R9_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3382,10 +3327,10 @@
          "name": "Diagnosed prevalence, by type",
          "_children": [
           {
-           "name": "Compare diagnosed amblyopia and strabismus",
+           "name": " Compare diagnosed amblyopia and strabismus",
            "_children": [
             {
-             "name": "Amblyopia",
+             "name": "R9_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3399,7 +3344,7 @@
              ]
             },
             {
-             "name": "Strabismus",
+             "name": "R9_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3415,10 +3360,10 @@
            ]
           },
           {
-           "name": "Diagnosed amblyopia",
+           "name": "Diagnosed Amblyopia",
            "_children": [
             {
-             "name": "Amblyopia",
+             "name": "R9_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3434,10 +3379,10 @@
            ]
           },
           {
-           "name": "Diagnosed strabismus",
+           "name": "Diagnosed Strabismus",
            "_children": [
             {
-             "name": "Strabismus",
+             "name": "R9_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3468,10 +3413,10 @@
          "name": "Patients receiving service",
          "_children": [
           {
-           "name": "Eye exam",
+           "name": "eye exam",
            "_children": [
             {
-             "name": "By any provider type",
+             "name": "REXANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3490,7 +3435,7 @@
            "name": "Eye exam, by an ophthalmologist",
            "_children": [
             {
-             "name": "By an ophthalmologist or other physician",
+             "name": "REXPHS",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3509,7 +3454,7 @@
            "name": "Eye exam, by an optometrist",
            "_children": [
             {
-             "name": "By an optometrist or optician",
+             "name": "REXOPT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3525,10 +3470,10 @@
            ]
           },
           {
-           "name": "Eye exam, compare provider types",
+           "name": "Eye exam,  Compare provider types",
            "_children": [
             {
-             "name": "By an ophthalmologist or other physician",
+             "name": "REXPHS",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3542,7 +3487,7 @@
              ]
             },
             {
-             "name": "By an optometrist or optician",
+             "name": "REXOPT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3566,7 +3511,7 @@
            "name": "Did not received needed eye care (self-report)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -3585,7 +3530,7 @@
            "name": "Saw eye care provider (_children)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -3604,7 +3549,7 @@
            "name": "Saw eye care provider (adult)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -3630,10 +3575,10 @@
          "name": "Patients receiving service",
          "_children": [
           {
-           "name": "Any covered imaging or diagnostic test",
+           "name": "Any covered Imaging or Diagnostic Test",
            "_children": [
             {
-             "name": "Any diagnostic eye test",
+             "name": "RTESTANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3654,10 +3599,10 @@
          "name": "Patients receiving service, by service type",
          "_children": [
           {
-           "name": "Compare and imaging diagnostics tests",
+           "name": " Compare and imaging diagnostics tests",
            "_children": [
             {
-             "name": "Flourescein angiography",
+             "name": "RANGIO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3671,7 +3616,7 @@
              ]
             },
             {
-             "name": "Gonioscopy",
+             "name": "RGONIO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3685,7 +3630,7 @@
              ]
             },
             {
-             "name": "Optical coherence tomography",
+             "name": "ROCT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3699,7 +3644,7 @@
              ]
             },
             {
-             "name": "Stereo fundus exam",
+             "name": "RFUN",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3713,7 +3658,7 @@
              ]
             },
             {
-             "name": "Tonometry test",
+             "name": "RTONO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3727,7 +3672,7 @@
              ]
             },
             {
-             "name": "Visual field testing",
+             "name": "RVISFLD",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3746,7 +3691,7 @@
            "name": "Flourescein angiography",
            "_children": [
             {
-             "name": "Flourescein angiography",
+             "name": "RANGIO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3765,7 +3710,7 @@
            "name": "Gonioscopy\u00a0",
            "_children": [
             {
-             "name": "Gonioscopy",
+             "name": "RGONIO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3781,10 +3726,10 @@
            ]
           },
           {
-           "name": "Optical coherence tomography (oct)",
+           "name": "Optical coherence tomography (OCT)",
            "_children": [
             {
-             "name": "Optical coherence tomography",
+             "name": "ROCT",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3803,7 +3748,7 @@
            "name": "Stereo fundus exam",
            "_children": [
             {
-             "name": "Stereo fundus exam",
+             "name": "RFUN",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3819,10 +3764,10 @@
            ]
           },
           {
-           "name": "Tonometry\u00a0test",
+           "name": "tonometry\u00a0test",
            "_children": [
             {
-             "name": "Tonometry test",
+             "name": "RTONO",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3841,140 +3786,7 @@
            "name": "Visual field testing",
            "_children": [
             {
-             "name": "Visual field testing",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          }
-         ]
-        }
-       ]
-      },
-      {
-       "name": "Screening services",
-       "_children": [
-        {
-         "name": "Patients receiving screening",
-         "_children": [
-          {
-           "name": "Compare screening service types",
-           "_children": [
-            {
-             "name": "Diabetic Retinopathy Telemedicine Screening",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            },
-            {
-             "name": "Glaucoma screening",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            },
-            {
-             "name": "Vision screening",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Diabetic retinopathy telemedicine screening",
-           "_children": [
-            {
-             "name": "Diabetic Retinopathy Telemedicine Screening",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Glaucoma screening",
-           "_children": [
-            {
-             "name": "Glaucoma screening",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Vision screening",
-           "_children": [
-            {
-             "name": "Vision screening",
-             "_children": [
-              {
-               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
-               "_children": [
-                {
-                 "name": "size",
-                 "size": "1"
-                }
-               ]
-              }
-             ]
-            }
-           ]
-          },
-          {
-           "name": "Any included screening services",
-           "_children": [
-            {
-             "name": "Any vision screening",
+             "name": "RVISFLD",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -3997,13 +3809,141 @@
        "name": "Screening Services",
        "_children": [
         {
+         "name": "Patients receiving screening",
+         "_children": [
+          {
+           "name": " Compare screening service types",
+           "_children": [
+            {
+             "name": "RSCNDR",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "RSCNGLA",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": "RSCNVIS",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Diabetic Retinopathy Telemedicine Screening",
+           "_children": [
+            {
+             "name": "RSCNDR",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Glaucoma screening",
+           "_children": [
+            {
+             "name": "RSCNGLA",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Vision screening",
+           "_children": [
+            {
+             "name": "RSCNVIS",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": "Any Included Screening services",
+           "_children": [
+            {
+             "name": "RSCNANY",
+             "_children": [
+              {
+               "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
+               "_children": [
+                {
+                 "name": "size",
+                 "size": "1"
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
          "name": "Reported receiving screening",
          "_children": [
           {
            "name": "Child vision screening-tested with pictures, shapes, or letters",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4019,10 +3959,10 @@
            ]
           },
           {
-           "name": "Compare child vision screening location",
+           "name": " Compare child vision screening location",
            "_children": [
             {
-             "name": "Clinic",
+             "name": "RCLNC",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4036,7 +3976,7 @@
              ]
             },
             {
-             "name": "Eye doctor or eye specialist",
+             "name": "REYESP",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4050,7 +3990,7 @@
              ]
             },
             {
-             "name": "Other",
+             "name": "COTH",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4064,7 +4004,7 @@
              ]
             },
             {
-             "name": "Pediatrician or other general doctor?s office",
+             "name": "RPED",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4078,7 +4018,7 @@
              ]
             },
             {
-             "name": "School",
+             "name": "RSCHL",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4104,10 +4044,10 @@
          "name": "Participates in high eye-risk activities",
          "_children": [
           {
-           "name": "Participate in non-work activities with high risk of eye injury",
+           "name": "Participate in non-work activities with high risk of eye injury (adults)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4126,7 +4066,7 @@
            "name": "Wear eye protection during eye risk activities (_children ages 6-17)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4150,7 +4090,7 @@
            "name": "Wear eye protection during eye risk activities (adults)",
            "_children": [
             {
-             "name": "Always",
+             "name": "RALW",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4164,7 +4104,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4178,7 +4118,7 @@
              ]
             },
             {
-             "name": "Most of the time",
+             "name": "RMTIM",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4192,7 +4132,7 @@
              ]
             },
             {
-             "name": "None of the time",
+             "name": "RNONT",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4206,7 +4146,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4220,7 +4160,7 @@
              ]
             },
             {
-             "name": "Some of the time",
+             "name": "RSOMT",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4239,7 +4179,7 @@
            "name": "Wear eye protection during eye risk activities (_children ages 6-17)",
            "_children": [
             {
-             "name": "Always",
+             "name": "RALW",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4253,7 +4193,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4267,7 +4207,7 @@
              ]
             },
             {
-             "name": "Most of the time",
+             "name": "RMTIM",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4281,7 +4221,7 @@
              ]
             },
             {
-             "name": "None of the time",
+             "name": "RNONT",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4295,7 +4235,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4309,7 +4249,7 @@
              ]
             },
             {
-             "name": "Some of the time",
+             "name": "RSOMT",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4338,7 +4278,7 @@
            "name": "Any included vision correction service",
            "_children": [
             {
-             "name": "Any vision correction",
+             "name": "RVCANY",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -4359,10 +4299,10 @@
          "name": "Patients receiving vision correction, by service type",
          "_children": [
           {
-           "name": "Compare receipt of vision correction types",
+           "name": " Compare receipt of vision correction types",
            "_children": [
             {
-             "name": "Contact lens or fitting",
+             "name": "RCONTAC",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -4376,7 +4316,7 @@
              ]
             },
             {
-             "name": "Eyeglasses",
+             "name": "RGLASS",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -4395,7 +4335,7 @@
            "name": "Contact lens or fitting",
            "_children": [
             {
-             "name": "Contact lens or fitting",
+             "name": "RCONTAC",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -4414,7 +4354,7 @@
            "name": "Eyeglasses",
            "_children": [
             {
-             "name": "Eyeglasses",
+             "name": "RGLASS",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -4435,10 +4375,10 @@
          "name": "Self-reported receipt of service",
          "_children": [
           {
-           "name": "Vision correction: wears glasses (self-report)",
+           "name": "Vision correction: Wears glasses (self-report)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4454,10 +4394,10 @@
            ]
           },
           {
-           "name": "Vision correction: wears glasses or contacts (_children)",
+           "name": "Vision correction: Wears glasses or contacts (_children)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4473,10 +4413,10 @@
            ]
           },
           {
-           "name": "Vision correction: wears glasses or contacts (self-report)",
+           "name": "Vision correction: Wears glasses or contacts (self-report)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4507,10 +4447,10 @@
          "name": "Prevalence of vision loss, self report",
          "_children": [
           {
-           "name": "Scale response - difficulty seeing even when wearing glasses",
+           "name": "Scale response - Difficulty seeing even when wearing glasses",
            "_children": [
             {
-             "name": "A lot of difficulty",
+             "name": "RLOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4524,7 +4464,7 @@
              ]
             },
             {
-             "name": "Cannot do at all/Unable to do",
+             "name": "RUNA",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4538,7 +4478,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4552,7 +4492,7 @@
              ]
             },
             {
-             "name": "No difficulty",
+             "name": "RND",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4566,7 +4506,7 @@
              ]
             },
             {
-             "name": "Not ascertained",
+             "name": "RNASC",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4580,7 +4520,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4594,7 +4534,7 @@
              ]
             },
             {
-             "name": "Some difficulty",
+             "name": "RSD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4613,7 +4553,7 @@
            "name": "Blind or unable to see",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -4632,7 +4572,7 @@
            "name": "Blind or unable to see at all",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4651,7 +4591,7 @@
            "name": "_children who are blind or have problems with seeing even when wearing glasses",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NSCH (_children survey)",
@@ -4670,7 +4610,7 @@
            "name": "Trouble seeing even with glasses ",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4689,7 +4629,7 @@
            "name": "Blind or difficultly seeing even with glasses",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "ACS (survey)",
@@ -4708,7 +4648,7 @@
            "name": "Blind or unable to see (_children)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4727,7 +4667,7 @@
            "name": "Trouble seeing even with glasses (_children)",
            "_children": [
             {
-             "name": "Yes",
+             "name": "RYES",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -4748,10 +4688,10 @@
          "name": "VEHSS Composite Prevalence Estimate",
          "_children": [
           {
-           "name": "Prevalence of any visual acuity loss (?20/32 best corrected)",
+           "name": "Prevalence of Any visual acuity loss (?20/32 best corrected)",
            "_children": [
             {
-             "name": "Any vision loss",
+             "name": "RVANY",
              "_children": [
               {
                "name": "VEHSS Composite Prevalence Estimate",
@@ -4767,10 +4707,10 @@
            ]
           },
           {
-           "name": "Prevalence of any visual acuity loss (?20/32 best corrected), by detailed age groups",
+           "name": "Prevalence of Any visual acuity loss (?20/32 best corrected), by detailed age groups",
            "_children": [
             {
-             "name": "Any vision loss",
+             "name": "RVANY",
              "_children": [
               {
                "name": "VEHSS Composite Prevalence Estimate",
@@ -4789,7 +4729,7 @@
            "name": "Prevalence of blindness (?20/200 best corrected)",
            "_children": [
             {
-             "name": "US-defined blindness",
+             "name": "RVUSB",
              "_children": [
               {
                "name": "VEHSS Composite Prevalence Estimate",
@@ -4808,7 +4748,7 @@
            "name": "Prevalence of blindness (?20/200 best corrected), by detailed age groups",
            "_children": [
             {
-             "name": "US-defined blindness",
+             "name": "RVUSB",
              "_children": [
               {
                "name": "VEHSS Composite Prevalence Estimate",
@@ -4829,13 +4769,13 @@
          "name": "Prevalence of vision loss, measured best corrected acuity",
          "_children": [
           {
-           "name": "Compare best corrected acuity ranges",
+           "name": " Compare best corrected acuity ranges",
            "_children": [
             {
-             "name": "Missing acuity",
+             "name": "RVMISS",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4846,10 +4786,10 @@
              ]
             },
             {
-             "name": "Monocular vision loss",
+             "name": "RVMON",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4869,10 +4809,10 @@
              ]
             },
             {
-             "name": "US-defined blindness",
+             "name": "RVUSB",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4892,10 +4832,10 @@
              ]
             },
             {
-             "name": "Visual impairment",
+             "name": "RVIMP",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4915,10 +4855,10 @@
              ]
             },
             {
-             "name": "WHO-defined blindness",
+             "name": "RVWB",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4934,10 +4874,10 @@
            "name": "Missing acuity (best corrected)",
            "_children": [
             {
-             "name": "Missing acuity",
+             "name": "RVMISS",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4950,13 +4890,13 @@
            ]
           },
           {
-           "name": "Prevalence of any visual acuity loss (?20/32 best corrected)",
+           "name": "Prevalence of Any visual acuity loss (?20/32 best corrected)",
            "_children": [
             {
-             "name": "Any vision loss",
+             "name": "RVANY",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -4981,10 +4921,10 @@
            "name": "Prevalence of blindness (?20/200 best corrected)",
            "_children": [
             {
-             "name": "US-defined blindness",
+             "name": "RVUSB",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -5006,13 +4946,13 @@
            ]
           },
           {
-           "name": "Prevalence of monocular vision loss (?20/32 best corrected)",
+           "name": "Prevalence of Monocular vision loss (?20/32 best corrected)",
            "_children": [
             {
-             "name": "Monocular vision loss",
+             "name": "RVMON",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -5025,10 +4965,10 @@
            ]
           },
           {
-           "name": "Prevalence of monocular vision loss (?20/70 best corrected)",
+           "name": "Prevalence of Monocular vision loss (?20/70 best corrected)",
            "_children": [
             {
-             "name": "Monocular vision loss",
+             "name": "RVMON",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5044,13 +4984,13 @@
            ]
           },
           {
-           "name": "Prevalence of visual impairment (20/32-20/160 best corrected)",
+           "name": "Prevalence of Visual impairment (20/32-20/160 best corrected)",
            "_children": [
             {
-             "name": "Visual impairment",
+             "name": "RVIMP",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -5072,13 +5012,13 @@
            ]
           },
           {
-           "name": "Prevalence of who-defined blindness (?20/400best corrected)",
+           "name": "Prevalence of WHO-defined blindness (?20/400best corrected)",
            "_children": [
             {
-             "name": "WHO-defined blindness",
+             "name": "RVWB",
              "_children": [
               {
-               "name": "IRIS\u00ae Registry (EHR)",
+               "name": "IRIS\u00ab Registry (EHR)",
                "_children": [
                 {
                  "name": "size",
@@ -5096,10 +5036,10 @@
          "name": "Prevalence of vision loss, measured presenting acuity",
          "_children": [
           {
-           "name": "Compare presenting acuity ranges",
+           "name": " Compare presenting acuity ranges",
            "_children": [
             {
-             "name": "Presenting with monocular vision loss",
+             "name": "RVPMON",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5113,7 +5053,7 @@
              ]
             },
             {
-             "name": "Presenting with US-defined blindness",
+             "name": "RVPUSB",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5127,7 +5067,7 @@
              ]
             },
             {
-             "name": "Presenting with visual impairment",
+             "name": "RVPIMP",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5146,7 +5086,7 @@
            "name": "Presenting with any visual acuity loss",
            "_children": [
             {
-             "name": "Presenting with any vision loss",
+             "name": "RVPANY",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5165,7 +5105,7 @@
            "name": "Presenting with blindness (?20/200)",
            "_children": [
             {
-             "name": "Presenting with US-defined blindness",
+             "name": "RVPUSB",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5184,7 +5124,7 @@
            "name": "Presenting with monocular vision loss (?20/70)",
            "_children": [
             {
-             "name": "Presenting with monocular vision loss",
+             "name": "RVPMON",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5203,7 +5143,7 @@
            "name": "Presenting with visual impairment (20/32-20/160)",
            "_children": [
             {
-             "name": "Presenting with visual impairment",
+             "name": "RVPIMP",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5222,7 +5162,7 @@
            "name": "Uncorrected refractive error",
            "_children": [
             {
-             "name": "Uncorrected refractive error (URE)",
+             "name": "RVURE",
              "_children": [
               {
                "name": "NHANES (examination survey)",
@@ -5248,10 +5188,10 @@
          "name": "Diagnosed refractive error",
          "_children": [
           {
-           "name": "All diagnosed refraction and accomodation disorders",
+           "name": "All Diagnosed Refraction and Accomodation Disorders",
            "_children": [
             {
-             "name": "All Refraction and accommodation disorders",
+             "name": "R7_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5267,10 +5207,10 @@
            ]
           },
           {
-           "name": "Diagnosed vision disorders",
+           "name": "Diagnosed Vision Disorders",
            "_children": [
             {
-             "name": "All Refraction and accommodation disorders",
+             "name": "R7_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5286,10 +5226,10 @@
            ]
           },
           {
-           "name": "Compare all types of diagnosed refractive error",
+           "name": " Compare all types of diagnosed refractive error",
            "_children": [
             {
-             "name": "Astigmatism",
+             "name": "R7_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5303,7 +5243,7 @@
              ]
             },
             {
-             "name": "Hypermetropia",
+             "name": "R7_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5317,7 +5257,7 @@
              ]
             },
             {
-             "name": "Myopia",
+             "name": "R7_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5331,7 +5271,7 @@
              ]
             },
             {
-             "name": "Other refraction and accommodation disorders",
+             "name": "R7_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5345,7 +5285,7 @@
              ]
             },
             {
-             "name": "Presbyopia",
+             "name": "R7_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5361,10 +5301,10 @@
            ]
           },
           {
-           "name": "Diagnosed astigmatism",
+           "name": "Diagnosed Astigmatism",
            "_children": [
             {
-             "name": "Astigmatism",
+             "name": "R7_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5380,10 +5320,10 @@
            ]
           },
           {
-           "name": "Diagnosed hypermetropia",
+           "name": "Diagnosed Hypermetropia",
            "_children": [
             {
-             "name": "Hypermetropia",
+             "name": "R7_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5399,10 +5339,10 @@
            ]
           },
           {
-           "name": "Diagnosed myopia",
+           "name": "Diagnosed Myopia",
            "_children": [
             {
-             "name": "Myopia",
+             "name": "R7_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5418,10 +5358,10 @@
            ]
           },
           {
-           "name": "Diagnosed presbyopia",
+           "name": "Diagnosed Presbyopia",
            "_children": [
             {
-             "name": "Presbyopia",
+             "name": "R7_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5440,7 +5380,7 @@
            "name": "Other diagnosed disorders of refraction and accommodation",
            "_children": [
             {
-             "name": "Other refraction and accommodation disorders",
+             "name": "R7_5",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5461,10 +5401,10 @@
          "name": "Diagnosed vision loss and blindness",
          "_children": [
           {
-           "name": "All diagnosed vision disorders",
+           "name": "All Diagnosed Vision Disorders",
            "_children": [
             {
-             "name": "All Blindness and low vision",
+             "name": "R8_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5480,10 +5420,10 @@
            ]
           },
           {
-           "name": "Compare all diagnosed vision loss",
+           "name": " Compare all diagnosed vision loss",
            "_children": [
             {
-             "name": "Blindness one eye, low vision other eye",
+             "name": "R8_8",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5497,7 +5437,7 @@
              ]
             },
             {
-             "name": "Blindness, both eyes, including legal blindness",
+             "name": "R8_10",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5511,7 +5451,7 @@
              ]
             },
             {
-             "name": "Low vision or blindness, one eye",
+             "name": "R8_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5525,7 +5465,7 @@
              ]
             },
             {
-             "name": "Low vision, both eyes",
+             "name": "R8_9",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5539,7 +5479,7 @@
              ]
             },
             {
-             "name": "Unqualified impairment in one eye, or unspecified",
+             "name": "R8_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5553,7 +5493,7 @@
              ]
             },
             {
-             "name": "Unqualified impairment, both eyes",
+             "name": "R8_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5569,10 +5509,10 @@
            ]
           },
           {
-           "name": "Diagnosed blindness one eye, low vision other eye",
+           "name": "Diagnosed Blindness one eye, low vision other eye",
            "_children": [
             {
-             "name": "Blindness one eye, low vision other eye",
+             "name": "R8_8",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5588,10 +5528,10 @@
            ]
           },
           {
-           "name": "Diagnosed blindness, both eyes, including legal blindness",
+           "name": "Diagnosed Blindness, both eyes, including legal blindness",
            "_children": [
             {
-             "name": "Blindness, both eyes, including legal blindness",
+             "name": "R8_10",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5607,10 +5547,10 @@
            ]
           },
           {
-           "name": "Diagnosed low vision or blindness, one eye",
+           "name": "Diagnosed Low vision or blindness, one eye",
            "_children": [
             {
-             "name": "Low vision or blindness, one eye",
+             "name": "R8_7",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5626,10 +5566,10 @@
            ]
           },
           {
-           "name": "Diagnosed low vision, both eyes",
+           "name": "Diagnosed Low vision, both eyes",
            "_children": [
             {
-             "name": "Low vision, both eyes",
+             "name": "R8_9",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5645,10 +5585,10 @@
            ]
           },
           {
-           "name": "Diagnosed unqualified impairment in one eye, or unspecified",
+           "name": "Diagnosed Unqualified impairment in one eye, or unspecified",
            "_children": [
             {
-             "name": "Unqualified impairment in one eye, or unspecified",
+             "name": "R8_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5664,10 +5604,10 @@
            ]
           },
           {
-           "name": "Diagnosed unqualified impairment, both eyes",
+           "name": "Diagnosed Unqualified impairment, both eyes",
            "_children": [
             {
-             "name": "Unqualified impairment, both eyes",
+             "name": "R8_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5691,7 +5631,7 @@
            "name": "All diagnosed visual disturbances",
            "_children": [
             {
-             "name": "All Other visual disturbances",
+             "name": "R12_ALL",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5707,10 +5647,10 @@
            ]
           },
           {
-           "name": "Compare all types of diagnosed visual disturbances",
+           "name": " Compare all types of diagnosed visual disturbances",
            "_children": [
             {
-             "name": "Color blindness",
+             "name": "R12_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5724,7 +5664,7 @@
              ]
             },
             {
-             "name": "Night blindness",
+             "name": "R12_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5738,7 +5678,7 @@
              ]
             },
             {
-             "name": "Other/unspecified visual disturbances",
+             "name": "R12_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5752,7 +5692,7 @@
              ]
             },
             {
-             "name": "Visual field defect",
+             "name": "R12_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5768,10 +5708,10 @@
            ]
           },
           {
-           "name": "Diagnosed color blindness",
+           "name": "Diagnosed Color blindness",
            "_children": [
             {
-             "name": "Color blindness",
+             "name": "R12_2",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5787,10 +5727,10 @@
            ]
           },
           {
-           "name": "Diagnosed night blindness",
+           "name": "Diagnosed Night blindness",
            "_children": [
             {
-             "name": "Night blindness",
+             "name": "R12_3",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5806,10 +5746,10 @@
            ]
           },
           {
-           "name": "Diagnosed other/unspecified visual disturbances",
+           "name": "Diagnosed Other/unspecified visual disturbances",
            "_children": [
             {
-             "name": "Other/unspecified visual disturbances",
+             "name": "R12_4",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5825,10 +5765,10 @@
            ]
           },
           {
-           "name": "Diagnosed visual field defect",
+           "name": "Diagnosed Visual field defect",
            "_children": [
             {
-             "name": "Visual field defect",
+             "name": "R12_1",
              "_children": [
               {
                "name": "IRIS, Medicare, Medicaid, VSP, MarketScan",
@@ -5857,7 +5797,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Can't do at all because of eyesight",
+             "name": "RCNTE",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5881,7 +5821,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Do not do this activity for other reasons",
+             "name": "RDTOR",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5895,7 +5835,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5909,7 +5849,7 @@
              ]
             },
             {
-             "name": "Not at all difficult",
+             "name": "RNOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5923,7 +5863,7 @@
              ]
             },
             {
-             "name": "Only a little difficult",
+             "name": "ROALD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5941,7 +5881,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5955,7 +5895,7 @@
              ]
             },
             {
-             "name": "Somewhat difficult",
+             "name": "RSWD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5969,7 +5909,7 @@
              ]
             },
             {
-             "name": "Very difficult",
+             "name": "RVD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -5993,7 +5933,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Can't do at all because of eyesight",
+             "name": "RCNTE",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6007,7 +5947,7 @@
              ]
             },
             {
-             "name": "Do not do this activity for other reasons",
+             "name": "RDTOR",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6021,7 +5961,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6035,7 +5975,7 @@
              ]
             },
             {
-             "name": "Not at all difficult",
+             "name": "RNOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6049,7 +5989,7 @@
              ]
             },
             {
-             "name": "Only a little difficult",
+             "name": "ROALD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6063,7 +6003,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6077,7 +6017,7 @@
              ]
             },
             {
-             "name": "Somewhat difficult",
+             "name": "RSWD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6091,7 +6031,7 @@
              ]
             },
             {
-             "name": "Very difficult",
+             "name": "RVD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6115,7 +6055,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Not at all difficult",
+             "name": "RNOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6129,7 +6069,7 @@
              ]
             },
             {
-             "name": "Can't do at all because of eyesight",
+             "name": "RCNTE",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6143,7 +6083,7 @@
              ]
             },
             {
-             "name": "Do not do this activity for other reasons",
+             "name": "RDTOR",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6157,7 +6097,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6171,7 +6111,7 @@
              ]
             },
             {
-             "name": "Only a little difficult",
+             "name": "ROALD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6185,7 +6125,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6199,7 +6139,7 @@
              ]
             },
             {
-             "name": "Somewhat difficult",
+             "name": "RSWD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6213,7 +6153,7 @@
              ]
             },
             {
-             "name": "Very difficult",
+             "name": "RVD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6237,7 +6177,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Can't do at all because of eyesight",
+             "name": "RCNTE",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6251,7 +6191,7 @@
              ]
             },
             {
-             "name": "Do not do this activity for other reasons",
+             "name": "RDTOR",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6265,7 +6205,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6279,7 +6219,7 @@
              ]
             },
             {
-             "name": "Not at all difficult",
+             "name": "RNOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6293,7 +6233,7 @@
              ]
             },
             {
-             "name": "Only a little difficult",
+             "name": "ROALD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6307,7 +6247,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6321,7 +6261,7 @@
              ]
             },
             {
-             "name": "Somewhat difficult",
+             "name": "RSWD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6335,7 +6275,7 @@
              ]
             },
             {
-             "name": "Very difficult",
+             "name": "RVD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6359,7 +6299,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Can't do at all because of eyesight",
+             "name": "RCNTE",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6373,7 +6313,7 @@
              ]
             },
             {
-             "name": "Do not do this activity for other reasons",
+             "name": "RDTOR",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6387,7 +6327,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6401,7 +6341,7 @@
              ]
             },
             {
-             "name": "Not at all difficult",
+             "name": "RNOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6415,7 +6355,7 @@
              ]
             },
             {
-             "name": "Only a little difficult",
+             "name": "ROALD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6429,7 +6369,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6443,7 +6383,7 @@
              ]
             },
             {
-             "name": "Somewhat difficult",
+             "name": "RSWD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6457,7 +6397,7 @@
              ]
             },
             {
-             "name": "Very difficult",
+             "name": "RVD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6481,7 +6421,7 @@
            "name": "Even when wearing glasses, how often do adults experience difficulty",
            "_children": [
             {
-             "name": "Can't do at all because of eyesight",
+             "name": "RCNTE",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6495,7 +6435,7 @@
              ]
             },
             {
-             "name": "Do not do this activity for other reasons",
+             "name": "RDTOR",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6509,7 +6449,7 @@
              ]
             },
             {
-             "name": "Don't Know",
+             "name": "RDK",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6523,7 +6463,7 @@
              ]
             },
             {
-             "name": "Not at all difficult",
+             "name": "RNOTD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6537,7 +6477,7 @@
              ]
             },
             {
-             "name": "Refused",
+             "name": "RRF",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6551,7 +6491,7 @@
              ]
             },
             {
-             "name": "Somewhat difficult",
+             "name": "RSWD",
              "_children": [
               {
                "name": "NHIS (survey)",
@@ -6565,7 +6505,7 @@
              ]
             },
             {
-             "name": "Very difficult",
+             "name": "RVD",
              "_children": [
               {
                "name": "NHIS (survey)",
