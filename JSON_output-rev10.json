@@ -1,7 +1,7 @@
 
   {
-   "name": "VEHSS Indicators3",
-   "children": [
+   "name": "VEHSS Indicators",
+   "_children": [
     {
      "name": "Age-related Macular Degeneration (AMD)",
      "_children": [
@@ -286,7 +286,7 @@
          "name": "Examination-based AMD",
          "_children": [
           {
-           "name": "Examination-based AMD-Any stage",
+           "name": "AMD-Any stage",
            "_children": [
             {
              "name": "RYES",
@@ -742,7 +742,7 @@
          "name": "Self-reported cataract",
          "_children": [
           {
-           "name": "Percentage of adults ever told they had cataracts",
+           "name": "Self-reported cataracts",
            "_children": [
             {
              "name": "RYES",
@@ -771,7 +771,7 @@
          "name": "Self-reported cataract treatment",
          "_children": [
           {
-           "name": "Cataract surgery",
+           "name": "Self-report: Ever had cataract surgery",
            "_children": [
             {
              "name": "RYES",
@@ -792,10 +792,10 @@
          ]
         },
         {
-         "name": "Self-reported cataract",
+         "name": "Treatment of diagnosed cataract patients",
          "_children": [
           {
-           "name": "Percentage of adults ?55, or adults ?18 with diagnosed cataract, who report ever having cataract surgery",
+           "name": "Self-report: Ever had cataract surgery",
            "_children": [
             {
              "name": "RYES",
@@ -812,12 +812,7 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Cataract treatment",
-         "_children": [
+          },
           {
            "name": "Cataract surgery",
            "_children": [
@@ -1366,7 +1361,7 @@
          "name": "Diagnosed glaucoma, clinical types",
          "_children": [
           {
-           "name": " Compare all glaucoma stages",
+           "name": " Compare all glaucoma stages (not mutually exclusive)",
            "_children": [
             {
              "name": "R5_ALL",
@@ -3557,7 +3552,7 @@
              "name": "RYES",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -3570,7 +3565,7 @@
            ]
           },
           {
-           "name": "Saw eye care provider (_children)",
+           "name": "Saw eye care provider (children)",
            "_children": [
             {
              "name": "RYES",
@@ -3989,7 +3984,7 @@
              "name": "RYES",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -4008,7 +4003,7 @@
              "name": "RCLNC",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -4022,7 +4017,7 @@
              "name": "REYESP",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -4036,7 +4031,7 @@
              "name": "COTH",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -4050,7 +4045,7 @@
              "name": "RPED",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -4064,7 +4059,7 @@
              "name": "RSCHL",
              "_children": [
               {
-               "name": "NSCH (_children survey)",
+               "name": "NSCH (children survey)",
                "_children": [
                 {
                  "name": "size",
@@ -4106,7 +4101,7 @@
            ]
           },
           {
-           "name": "Wear eye protection during eye risk activities (_children ages 6-17)",
+           "name": "Wear eye protection during eye risk activities (children ages 6-17)",
            "_children": [
             {
              "name": "RYES",
@@ -4219,7 +4214,7 @@
            ]
           },
           {
-           "name": "Wear eye protection during eye risk activities (_children ages 6-17)",
+           "name": "Wear eye protection during eye risk activities (children ages 6-17)",
            "_children": [
             {
              "name": "RALW",
@@ -4437,7 +4432,7 @@
            ]
           },
           {
-           "name": "Vision correction: Wears glasses or contacts (_children)",
+           "name": "Vision correction: Wears glasses or contacts (children)",
            "_children": [
             {
              "name": "RYES",
@@ -4481,7 +4476,7 @@
      ]
     },
     {
-     "name": "Vision Problems and Blindness",
+     "name": " Vision Problems and Blindness",
      "_children": [
       {
        "name": "Vision Loss and Blindness",
@@ -4631,7 +4626,7 @@
            ]
           },
           {
-           "name": "_children who are blind or have problems with seeing even when wearing glasses",
+           "name": "Blind or difficultly seeing even with glasses (children)",
            "_children": [
             {
              "name": "RYES",
@@ -4688,7 +4683,7 @@
            ]
           },
           {
-           "name": "Blind or unable to see (_children)",
+           "name": "Blind or unable to see (children)",
            "_children": [
             {
              "name": "RYES",
@@ -4707,7 +4702,7 @@
            ]
           },
           {
-           "name": "Trouble seeing even with glasses (_children)",
+           "name": "Trouble seeing even with glasses (children)",
            "_children": [
             {
              "name": "RYES",
@@ -4728,7 +4723,7 @@
          ]
         },
         {
-         "name": "VEHSS Composite Prevalence Estimate",
+         "name": " VEHSS Composite Prevalence Estimate",
          "_children": [
           {
            "name": "Prevalence of Any visual acuity loss (?20/32 best corrected)",
@@ -5834,10 +5829,10 @@
        "name": "Functional Limitations",
        "_children": [
         {
-         "name": "Difficulty doing work or hobbies that requires seeing well up close",
+         "name": "Even when wearing glasses, because of their eyesight how often adults have difficulty with",
          "_children": [
           {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
+           "name": "doing work requiring seeing up close",
            "_children": [
             {
              "name": "RCNTE",
@@ -5852,17 +5847,7 @@
                ]
               }
              ]
-            }
-           ]
-          }
-         ]
-        },
-        {
-         "name": "Difficulty doing work requiring seeing up close",
-         "_children": [
-          {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
-           "_children": [
+            },
             {
              "name": "RDTOR",
              "_children": [
@@ -5966,14 +5951,9 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Difficulty driving during daytime",
-         "_children": [
+          },
           {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
+           "name": "driving during daytime",
            "_children": [
             {
              "name": "RCNTE",
@@ -6088,14 +6068,9 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Difficulty finding something on a crowded shelf",
-         "_children": [
+          },
           {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
+           "name": "finding something on a crowded shelf",
            "_children": [
             {
              "name": "RNOTD",
@@ -6210,14 +6185,9 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Difficulty going down steps, stairs, or curbs in dim light or at night",
-         "_children": [
+          },
           {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
+           "name": "going down steps, stairs, or curbs in dim light or at night",
            "_children": [
             {
              "name": "RCNTE",
@@ -6332,14 +6302,9 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Difficulty noticing objects off to the side",
-         "_children": [
+          },
           {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
+           "name": "noticing objects off to the side",
            "_children": [
             {
              "name": "RCNTE",
@@ -6454,14 +6419,9 @@
              ]
             }
            ]
-          }
-         ]
-        },
-        {
-         "name": "Difficulty reading ordinary newsprint",
-         "_children": [
+          },
           {
-           "name": "Even when wearing glasses, how often do adults experience difficulty",
+           "name": "reading ordinary newsprint",
            "_children": [
             {
              "name": "RCNTE",
@@ -6571,4 +6531,3 @@
     }
    ]
   }
-
